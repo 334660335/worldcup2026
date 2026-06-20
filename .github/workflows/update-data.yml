@@ -26,9 +26,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch World Cup data from API-Football
+      - name: Fetch World Cup data from football-data.org
         env:
-          API_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
         run: python scripts/fetch_data.py
 
       - name: Commit and push changes
