@@ -1038,21 +1038,21 @@
       "awayId": 1935,
       "awayShort": "Ivory Coast",
       "awayTla": "CIV",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "E",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537354,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-20T19:19:32.509547+00:00",
+  "lastUpdate": "2026-06-20T21:13:25.009516+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
