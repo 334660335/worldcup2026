@@ -97,7 +97,7 @@ def transform_matches(raw_matches):
 
         # 比赛阶段映射
         stage = map_stage(m.get("stage", "GROUP_STAGE"))
-        group = m.get("group", "")
+        group = m.get("group") or ""
         # 提取小组字母，如 "GROUP_A" -> "A"
         group_letter = group.replace("GROUP_", "") if group.startswith("GROUP_") else ""
 
