@@ -1,0 +1,44 @@
+name: Update World Cup Data
+
+on:
+  schedule:
+    # 每 2 小时运行一次 (UTC 时间)
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '手动触发原因'
+        required: false
+        default: '手动更新数据'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch World Cup data from API-Football
+        env:
+          API_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-update World Cup data $(date -u +%Y-%m-%d_%H:%M)"
+            git push
+          fi

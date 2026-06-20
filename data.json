@@ -1,0 +1,9 @@
+{
+  "matches": [],
+  "groups": {},
+  "scorers": [],
+  "lastUpdate": "2026-06-20T00:00:00Z",
+  "source": "fallback",
+  "status": "fallback",
+  "note": "此文件由 GitHub Actions 自动更新。首次部署时使用静态数据（data.js），配置 API_FOOTBALL_KEY 后将自动获取实时数据。"
+}

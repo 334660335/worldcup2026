@@ -1,8 +1,36 @@
 // ============================================
-// 2026 FIFA World Cup - 应用逻辑
+// 2026 FIFA World Cup - 应用逻辑 (支持动态数据)
 // ============================================
 
-document.addEventListener('DOMContentLoaded', () => {
+// 全局数据存储
+let WC_DATA = null;
+
+// 优先加载 data.json (API 动态数据)，回退到 data.js (静态数据)
+async function loadData() {
+    try {
+        const response = await fetch('data.json?t=' + Date.now());
+        if (!response.ok) throw new Error('data.json not found');
+        const jsonData = await response.json();
+
+        // 合并动态数据和静态数据（场馆等不变的数据）
+        WC_DATA = {
+            ...WORLD_CUP_DATA,
+            matches: jsonData.matches || WORLD_CUP_DATA.matches,
+            groups: jsonData.groups || WORLD_CUP_DATA.groups,
+            scorers: jsonData.scorers || [],
+            lastUpdate: jsonData.lastUpdate,
+            source: jsonData.source || 'static'
+        };
+
+        console.log('✅ 动态数据加载成功:', jsonData.status, jsonData.lastUpdate);
+    } catch (e) {
+        console.log('⚠️ 使用静态数据:', e.message);
+        WC_DATA = WORLD_CUP_DATA;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadData();
     initApp();
 });
 
@@ -12,10 +40,26 @@ function initApp() {
     renderSchedule();
     renderGroupTables();
     renderVenues();
+    renderScorers();
     initFilters();
     initTabs();
     initScrollAnimations();
     animateStats();
+    initLiveRefresh();
+}
+
+// ---- 自动刷新（比赛期间每30秒刷新一次数据）----
+function initLiveRefresh() {
+    const hasLiveMatch = WC_DATA.matches.some(m => m.status === 'live');
+    if (hasLiveMatch) {
+        console.log('🔴 检测到进行中比赛，启用实时刷新');
+        setInterval(async () => {
+            await loadData();
+            renderTodayMatches();
+            renderSchedule();
+            updateTimestamps();
+        }, 30000); // 30秒刷新
+    }
 }
 
 // ---- 时间更新 ----
@@ -27,9 +71,13 @@ function updateTimestamps() {
     const updateTime = document.getElementById('updateTime');
     const footerTime = document.getElementById('footerTime');
     const todayDate = document.getElementById('todayDate');
+    const dataSource = document.getElementById('dataSource');
 
     if (updateTime) updateTime.textContent = timeStr;
-    if (footerTime) footerTime.textContent = timeStr;
+    if (footerTime) {
+        const source = WC_DATA.source === 'live' ? ' (API实时)' : ' (静态数据)';
+        footerTime.textContent = timeStr + source;
+    }
     if (todayDate) todayDate.textContent = now.toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' });
 }
 
@@ -39,11 +87,11 @@ function renderTodayMatches() {
     if (!container) return;
 
     const today = new Date().toISOString().split('T')[0];
-    const todayMatches = WORLD_CUP_DATA.matches.filter(m => m.date === today);
+    const todayMatches = WC_DATA.matches.filter(m => m.date === today);
 
     if (todayMatches.length === 0) {
         // 显示即将开赛的比赛
-        const upcoming = WORLD_CUP_DATA.matches
+        const upcoming = WC_DATA.matches
             .filter(m => m.status === 'upcoming')
             .sort((a, b) => new Date(a.date + 'T' + a.time) - new Date(b.date + 'T' + b.time))
             .slice(0, 4);
@@ -65,10 +113,10 @@ function createMatchCard(match) {
     const scoreDisplay = isFinished
         ? `${match.homeScore} <span class="score-sep">-</span> ${match.awayScore}`
         : isLive
-        ? `${match.homeScore || 0} <span class="score-sep">-</span> ${match.awayScore || 0}`
+        ? `${match.homeScore ?? 0} <span class="score-sep">-</span> ${match.awayScore ?? 0}`
         : 'VS';
 
-    const statusText = isFinished ? '完赛' : isLive ? '进行中' : '未开始';
+    const statusText = isFinished ? '完赛' : isLive ? `进行中 ${match.elapsed ? match.elapsed + "'" : ''}` : '未开始';
     const dateObj = new Date(match.date + 'T' + match.time);
     const timeStr = dateObj.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
     const dateStr = dateObj.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
@@ -96,7 +144,7 @@ function createMatchCard(match) {
             </div>
             <div class="match-card-footer">
                 <span>${statusText}</span>
-                <span>📍 ${match.city}</span>
+                <span>📍 ${match.city || ''}</span>
             </div>
         </div>
     `;
@@ -107,7 +155,7 @@ function renderSchedule(filter = 'all', tab = 'upcoming') {
     const container = document.getElementById('scheduleList');
     if (!container) return;
 
-    let matches = WORLD_CUP_DATA.matches;
+    let matches = WC_DATA.matches;
 
     // 按阶段过滤
     if (filter !== 'all') {
@@ -117,6 +165,8 @@ function renderSchedule(filter = 'all', tab = 'upcoming') {
     // 按标签过滤
     if (tab === 'upcoming') {
         matches = matches.filter(m => m.status === 'upcoming');
+    } else if (tab === 'live') {
+        matches = matches.filter(m => m.status === 'live');
     } else {
         matches = matches.filter(m => m.status === 'finished');
     }
@@ -135,10 +185,13 @@ function renderSchedule(filter = 'all', tab = 'upcoming') {
         const weekday = dateObj.toLocaleDateString('zh-CN', { weekday: 'short' });
         const timeStr = dateObj.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
         const isFinished = m.status === 'finished';
-        const score = isFinished ? `${m.homeScore} - ${m.awayScore}` : timeStr;
+        const isLive = m.status === 'live';
+        const score = isFinished || isLive
+            ? `${m.homeScore ?? '-'} - ${m.awayScore ?? '-'}`
+            : timeStr;
 
         return `
-            <div class="schedule-item">
+            <div class="schedule-item ${isLive ? 'live' : ''}">
                 <div class="schedule-date">
                     <div class="date-day">${dateStr}</div>
                     <div>${weekday}</div>
@@ -153,8 +206,8 @@ function renderSchedule(filter = 'all', tab = 'upcoming') {
                     <span>${m.away}</span>
                 </div>
                 <div class="schedule-venue">
-                    📍 ${m.city}<br>
-                    <small>${m.venue}</small>
+                    📍 ${m.city || ''}<br>
+                    <small>${m.venue || ''}</small>
                 </div>
             </div>
         `;
@@ -167,8 +220,13 @@ function renderGroupTables() {
     const selector = document.querySelector('.group-selector');
     if (!container || !selector) return;
 
+    const groups = Object.keys(WC_DATA.groups);
+    if (groups.length === 0) {
+        container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无小组数据</p>';
+        return;
+    }
+
     // 创建小组选择器
-    const groups = Object.keys(WORLD_CUP_DATA.groups);
     selector.innerHTML = groups.map(g =>
         `<button class="group-btn active" data-group="${g}">${g}</button>`
     ).join('');
@@ -191,11 +249,13 @@ function renderGroupTables() {
 }
 
 function createGroupTable(groupKey) {
-    const group = WORLD_CUP_DATA.groups[groupKey];
+    const group = WC_DATA.groups[groupKey];
     // 按积分排序
     const sortedTeams = [...group.teams].sort((a, b) => {
         if (b.pts !== a.pts) return b.pts - a.pts;
-        if (b.gf - b.ga !== a.gf - a.ga) return (b.gf - b.ga) - (a.gf - a.ga);
+        const gdB = b.gf - b.ga;
+        const gdA = a.gf - a.ga;
+        if (gdB !== gdA) return gdB - gdA;
         return b.gf - a.gf;
     });
 
@@ -245,12 +305,30 @@ function createGroupTable(groupKey) {
     `;
 }
 
+// ---- 射手榜 ----
+function renderScorers() {
+    const container = document.querySelector('.scorer-list');
+    if (!container || !WC_DATA.scorers || WC_DATA.scorers.length === 0) return;
+
+    container.innerHTML = WC_DATA.scorers.slice(0, 5).map((s, i) => {
+        const rankEmoji = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i + 1}`;
+        return `
+            <div class="scorer-item">
+                <span class="rank">${rankEmoji}</span>
+                <span>${s.flag}</span>
+                <span class="player-name">${s.name}</span>
+                <span class="goals">${s.goals}球</span>
+            </div>
+        `;
+    }).join('');
+}
+
 // ---- 球场 ----
 function renderVenues() {
     const container = document.getElementById('venuesGrid');
     if (!container) return;
 
-    container.innerHTML = WORLD_CUP_DATA.venues.map(v => `
+    container.innerHTML = WC_DATA.venues.map(v => `
         <div class="venue-card">
             <div class="venue-img">${v.emoji}</div>
             <div class="venue-info">
@@ -284,6 +362,19 @@ function initFilters() {
 // ---- 标签切换 ----
 function initTabs() {
     const tabBtns = document.querySelectorAll('.tab-btn');
+
+    // 如果有进行中的比赛，添加"进行中"标签
+    const hasLive = WC_DATA.matches.some(m => m.status === 'live');
+    if (hasLive) {
+        const tabsContainer = document.querySelector('.schedule-tabs');
+        if (tabsContainer && !tabsContainer.querySelector('[data-tab="live"]')) {
+            const liveBtn = document.createElement('button');
+            liveBtn.className = 'tab-btn';
+            liveBtn.dataset.tab = 'live';
+            liveBtn.innerHTML = '🔴 进行中';
+            tabsContainer.insertBefore(liveBtn, tabsContainer.children[1]);
+        }
+    }
 
     tabBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -356,7 +447,7 @@ function animateNumber(el, start, end, duration) {
     function update(currentTime) {
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+        const eased = 1 - Math.pow(1 - progress, 3);
         const current = Math.round(start + (end - start) * eased);
         el.textContent = current;
 
