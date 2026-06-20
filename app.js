@@ -12,11 +12,20 @@ async function loadData() {
         if (!response.ok) throw new Error('data.json not found');
         const jsonData = await response.json();
 
+        // 检查 data.json 是否有有效数据（matches 为空数组或不存在时回退）
+        const hasValidData = jsonData.matches && jsonData.matches.length > 0;
+
+        if (!hasValidData) {
+            console.log('⚠️ data.json 无有效数据，使用静态数据');
+            WC_DATA = WORLD_CUP_DATA;
+            return;
+        }
+
         // 合并动态数据和静态数据（场馆等不变的数据）
         WC_DATA = {
             ...WORLD_CUP_DATA,
-            matches: jsonData.matches || WORLD_CUP_DATA.matches,
-            groups: jsonData.groups || WORLD_CUP_DATA.groups,
+            matches: jsonData.matches,
+            groups: jsonData.groups && Object.keys(jsonData.groups).length > 0 ? jsonData.groups : WORLD_CUP_DATA.groups,
             scorers: jsonData.scorers || [],
             lastUpdate: jsonData.lastUpdate,
             source: jsonData.source || 'static'
