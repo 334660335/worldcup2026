@@ -448,7 +448,7 @@
       "awayFlag": "🇺🇾",
       "awayId": 758,
       "awayShort": "Uruguay",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "homeScore": 1,
       "awayScore": 1,
       "halfTimeHome": 1,
@@ -1038,7 +1038,7 @@
       "awayId": 1935,
       "awayShort": "Ivory Coast",
       "awayTla": "CIV",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
       "halfTimeHome": 0,
       "halfTimeAway": 1,
@@ -1046,13 +1046,13 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "E",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537354,
@@ -1187,7 +1187,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayFlag": "🏳️",
       "awayId": 1930,
@@ -1931,7 +1931,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayFlag": "🇪🇸",
       "awayId": 760,
@@ -3229,6 +3229,22 @@
     "n": {
       "teams": [
         {
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "code": "GER",
+          "shortName": "Germany",
+          "p": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gf": 9,
+          "ga": 2,
+          "gd": 7,
+          "pts": 6,
+          "rank": 1,
+          "form": "W,W"
+        },
+        {
           "name": "United States",
           "flag": "🇺🇸",
           "code": "USA",
@@ -3241,7 +3257,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 1,
+          "rank": 2,
           "form": "W,W"
         },
         {
@@ -3257,7 +3273,7 @@
           "ga": 0,
           "gd": 3,
           "pts": 6,
-          "rank": 2,
+          "rank": 3,
           "form": "W,W"
         },
         {
@@ -3273,7 +3289,7 @@
           "ga": 1,
           "gd": 6,
           "pts": 4,
-          "rank": 3,
+          "rank": 4,
           "form": "W,D"
         },
         {
@@ -3289,7 +3305,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 4,
+          "rank": 5,
           "form": "W,D"
         },
         {
@@ -3305,7 +3321,7 @@
           "ga": 2,
           "gd": 3,
           "pts": 4,
-          "rank": 5,
+          "rank": 6,
           "form": "W,D"
         },
         {
@@ -3321,7 +3337,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 4,
-          "rank": 6,
+          "rank": 7,
           "form": "W,D"
         },
         {
@@ -3337,24 +3353,8 @@
           "ga": 1,
           "gd": 1,
           "pts": 4,
-          "rank": 7,
-          "form": "W,D"
-        },
-        {
-          "name": "Germany",
-          "flag": "🇩🇪",
-          "code": "GER",
-          "shortName": "Germany",
-          "p": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "pts": 3,
           "rank": 8,
-          "form": "W"
+          "form": "W,D"
         },
         {
           "name": "Norway",
@@ -3453,22 +3453,6 @@
           "form": "W"
         },
         {
-          "name": "Ivory Coast",
-          "flag": "🇨🇮",
-          "code": "CIV",
-          "shortName": "Ivory Coast",
-          "p": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 3,
-          "rank": 15,
-          "form": "W"
-        },
-        {
           "name": "Ghana",
           "flag": "🇬🇭",
           "code": "GHA",
@@ -3481,7 +3465,7 @@
           "ga": 0,
           "gd": 1,
           "pts": 3,
-          "rank": 16,
+          "rank": 15,
           "form": "W"
         },
         {
@@ -3497,7 +3481,7 @@
           "ga": 6,
           "gd": 0,
           "pts": 3,
-          "rank": 17,
+          "rank": 16,
           "form": "L,W"
         },
         {
@@ -3513,7 +3497,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 18,
+          "rank": 17,
           "form": "L,W"
         },
         {
@@ -3521,6 +3505,22 @@
           "flag": "🇦🇺",
           "code": "AUS",
           "shortName": "Australia",
+          "p": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 3,
+          "rank": 18,
+          "form": "L,W"
+        },
+        {
+          "name": "Ivory Coast",
+          "flag": "🇨🇮",
+          "code": "CIV",
+          "shortName": "Ivory Coast",
           "p": 2,
           "w": 1,
           "d": 0,
@@ -4001,6 +4001,15 @@
   },
   "scorers": [
     {
+      "name": "Deniz Undav",
+      "flag": "🇩🇪",
+      "team": "Germany",
+      "teamShort": "Germany",
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
+    },
+    {
       "name": "Lionel Messi",
       "flag": "🇦🇷",
       "team": "Argentina",
@@ -4170,18 +4179,9 @@
       "goals": 1,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "In-beom Hwang",
-      "flag": "🇰🇷",
-      "team": "South Korea",
-      "teamShort": "Korea Republic",
-      "goals": 1,
-      "assists": 1,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-20T21:13:25.009516+00:00",
+  "lastUpdate": "2026-06-20T23:03:42.939521+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
