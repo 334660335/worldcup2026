@@ -234,6 +234,8 @@ function renderSchedule(filter = 'all', tab = 'upcoming') {
 }
 
 // ---- 小组积分 ----
+let currentGroup = 'A';
+
 function renderGroupTables() {
     const container = document.getElementById('groupTables');
     const selector = document.querySelector('.group-selector');
@@ -245,25 +247,27 @@ function renderGroupTables() {
         return;
     }
 
-    // 创建小组选择器
+    // 确保当前选中的小组存在
+    if (!groups.includes(currentGroup)) {
+        currentGroup = groups[0];
+    }
+
+    // 创建小组选择器（Tab 样式）
     selector.innerHTML = groups.map(g =>
-        `<button class="group-btn active" data-group="${g}">${g}</button>`
+        `<button class="group-btn ${g === currentGroup ? 'active' : ''}" data-group="${g}">${g}</button>`
     ).join('');
 
-    // 渲染所有小组
-    container.innerHTML = groups.map(g => createGroupTable(g)).join('');
+    // 只渲染当前选中的小组
+    container.innerHTML = createGroupTable(currentGroup);
 
-    // 小组按钮点击事件
-    selector.addEventListener('click', (e) => {
-        if (e.target.classList.contains('group-btn')) {
+    // 小组按钮点击事件 - 切换显示
+    selector.querySelectorAll('.group-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
             const group = e.target.dataset.group;
-            const card = document.getElementById(`group-${group}`);
-            if (card) {
-                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                card.style.borderColor = 'var(--accent)';
-                setTimeout(() => card.style.borderColor = '', 2000);
-            }
-        }
+            if (group === currentGroup) return;
+            currentGroup = group;
+            renderGroupTables();
+        });
     });
 }
 
