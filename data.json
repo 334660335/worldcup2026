@@ -1007,21 +1007,21 @@
       "awayId": 792,
       "awayShort": "Sweden",
       "awayTla": "SWE",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "F",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537353,
@@ -4127,6 +4127,15 @@
       "penalties": null
     },
     {
+      "name": "Brian Brobbey",
+      "flag": "🇳🇱",
+      "team": "Netherlands",
+      "teamShort": "Netherlands",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Julián Quiñones",
       "flag": "🇲🇽",
       "team": "Mexico",
@@ -4170,18 +4179,9 @@
       "goals": 1,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Jovo Lukić",
-      "flag": "🏳️",
-      "team": "Bosnia-Herzegovina",
-      "teamShort": "Bosnia-H.",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-20T15:43:59.421512+00:00",
+  "lastUpdate": "2026-06-20T17:22:20.126211+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
