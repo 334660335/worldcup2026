@@ -151,7 +151,7 @@ def transform_standings(raw_standings):
         if group_type != "TOTAL":
             continue
 
-        group_name = standing.get("group", "Unknown")
+        group_name = standing.get("group") or "Unknown"
         # 提取小组字母
         group_letter = group_name.replace("GROUP_", "") if group_name.startswith("GROUP_") else group_name[-1] if group_name else "?"
 
