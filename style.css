@@ -127,6 +127,44 @@ body {
     font-size: 0.8rem;
 }
 
+/* ---- 语言切换器 ---- */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.lang-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    padding: 0 4px 0 8px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 4px 10px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.lang-btn:hover {
+    color: var(--text);
+}
+
+.lang-btn.active {
+    background: var(--primary);
+    color: white;
+}
+
 /* ---- Hero ---- */
 .hero {
     position: relative;

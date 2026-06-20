@@ -30,8 +30,18 @@ async function loadData() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
+    await I18N.init();
     await loadData();
     initApp();
+
+    // 监听语言切换事件，重新渲染动态内容
+    window.addEventListener('langchange', () => {
+        renderTodayMatches();
+        renderSchedule();
+        renderGroupTables();
+        renderScorers();
+        renderVenues();
+    });
 });
 
 function initApp() {
@@ -75,7 +85,7 @@ function updateTimestamps() {
 
     if (updateTime) updateTime.textContent = timeStr;
     if (footerTime) {
-        const source = WC_DATA.source === 'live' ? ' (API实时)' : ' (静态数据)';
+        const source = WC_DATA.source === 'live' ? I18N.t('footer.live') : I18N.t('footer.static');
         footerTime.textContent = timeStr + source;
     }
     if (todayDate) todayDate.textContent = now.toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' });
@@ -97,7 +107,7 @@ function renderTodayMatches() {
             .slice(0, 4);
 
         if (upcoming.length === 0) {
-            container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无即将开赛的比赛</p>';
+            container.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:40px;">${I18N.t('today.noMatches')}</p>`;
             return;
         }
 
@@ -116,7 +126,7 @@ function createMatchCard(match) {
         ? `${match.homeScore ?? 0} <span class="score-sep">-</span> ${match.awayScore ?? 0}`
         : 'VS';
 
-    const statusText = isFinished ? '完赛' : isLive ? `进行中 ${match.elapsed ? match.elapsed + "'" : ''}` : '未开始';
+    const statusText = isFinished ? I18N.t('schedule.statusFinished') : isLive ? `${I18N.t('schedule.statusLive')} ${match.elapsed ? match.elapsed + "'" : ''}` : I18N.t('schedule.statusUpcoming');
     const dateObj = new Date(match.date + 'T' + match.time);
     const timeStr = dateObj.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
     const dateStr = dateObj.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
@@ -175,7 +185,7 @@ function renderSchedule(filter = 'all', tab = 'upcoming') {
     matches.sort((a, b) => new Date(a.date + 'T' + a.time) - new Date(b.date + 'T' + b.time));
 
     if (matches.length === 0) {
-        container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无匹配的比赛</p>';
+        container.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:40px;">${I18N.t('schedule.noMatches')}</p>`;
         return;
     }
 
@@ -222,7 +232,7 @@ function renderGroupTables() {
 
     const groups = Object.keys(WC_DATA.groups);
     if (groups.length === 0) {
-        container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">暂无小组数据</p>';
+        container.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:40px;">${I18N.t('groups.noData')}</p>`;
         return;
     }
 
@@ -283,20 +293,20 @@ function createGroupTable(groupKey) {
     return `
         <div class="group-table-card" id="group-${groupKey}">
             <div class="group-table-header">
-                ⚽ 小组 ${groupKey}
-                <span style="margin-left:auto;font-size:0.8rem;opacity:0.7;">前2名晋级</span>
+                ⚽ ${I18N.t('groups.title').replace('🏆 ', '')} ${groupKey}
+                <span style="margin-left:auto;font-size:0.8rem;opacity:0.7;">${I18N.t('groups.advance')}</span>
             </div>
             <table class="group-table">
                 <thead>
                     <tr>
-                        <th>#</th>
-                        <th>球队</th>
-                        <th>场</th>
-                        <th>胜</th>
-                        <th>平</th>
-                        <th>负</th>
-                        <th>进球</th>
-                        <th>积分</th>
+                        <th>${I18N.t('groups.colRank')}</th>
+                        <th>${I18N.t('groups.colTeam')}</th>
+                        <th>${I18N.t('groups.colPlayed')}</th>
+                        <th>${I18N.t('groups.colWon')}</th>
+                        <th>${I18N.t('groups.colDraw')}</th>
+                        <th>${I18N.t('groups.colLost')}</th>
+                        <th>${I18N.t('groups.colGoals')}</th>
+                        <th>${I18N.t('groups.colPoints')}</th>
                     </tr>
                 </thead>
                 <tbody>${rows}</tbody>

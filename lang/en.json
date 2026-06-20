@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "schedule": "Schedule",
+    "groups": "Group Tables",
+    "analysis": "Match Analysis",
+    "stats": "Statistics",
+    "venues": "Venues"
+  },
+  "hero": {
+    "badge": "FIFA WORLD CUP 2026",
+    "title": "Canada · Mexico · USA",
+    "subtitle": "48 Teams · 104 Matches · 16 Cities",
+    "dateLabel": "Tournament Dates",
+    "playedLabel": "Matches Played",
+    "goalsLabel": "Total Goals",
+    "dateRange": "June 11 - July 19"
+  },
+  "today": {
+    "title": "📅 Today's Matches",
+    "noMatches": "No upcoming matches"
+  },
+  "schedule": {
+    "title": "📋 Match Schedule",
+    "filterAll": "All",
+    "filterGroup": "Group Stage",
+    "filterR32": "Round of 32",
+    "filterR16": "Round of 16",
+    "filterQF": "Quarter-Finals",
+    "filterSF": "Semi-Finals",
+    "filterFinal": "Final",
+    "tabUpcoming": "Upcoming",
+    "tabLive": "🔴 Live",
+    "tabResults": "Results",
+    "noMatches": "No matches found",
+    "statusUpcoming": "Not Started",
+    "statusLive": "In Progress",
+    "statusFinished": "Finished"
+  },
+  "groups": {
+    "title": "🏆 Group Standings",
+    "desc": "12 Groups, top 2 + 8 best 3rd place teams advance",
+    "advance": "Top 2 Advance",
+    "colRank": "#",
+    "colTeam": "Team",
+    "colPlayed": "P",
+    "colWon": "W",
+    "colDraw": "D",
+    "colLost": "L",
+    "colGoals": "Goals",
+    "colPoints": "Pts",
+    "noData": "No group data available"
+  },
+  "analysis": {
+    "title": "🔍 Match Analysis",
+    "desc": "In-depth data analysis and tactical insights",
+    "tagFeatured": "Featured",
+    "tagScorers": "Top Scorers",
+    "tagTeams": "Power Rankings",
+    "tagRules": "New Rules",
+    "tacticsTitle": "Tactical Analysis",
+    "statPossession": "Possession",
+    "statShots": "Shots",
+    "statOnTarget": "On Target",
+    "rankHot": "Title Favorite",
+    "rankDefending": "Defending Champion",
+    "rankStrong": "Contender",
+    "ruleSubstitutions": "10-Second Substitutions",
+    "ruleSubstitutionsDesc": "Substituted players must leave within 10s or sub waits 1 minute",
+    "ruleRestart": "5-Second Restart",
+    "ruleRestartDesc": "Throw-ins and goal kicks must be taken within 5s or possession changes",
+    "ruleTreatment": "Treatment Rule",
+    "ruleTreatmentDesc": "Players receiving treatment must leave and wait 1 minute before returning",
+    "ruleMouth": "Mouth-Covering Red Card",
+    "ruleMouthDesc": "Covering mouth while confronting opponent results in direct red card"
+  },
+  "stats": {
+    "title": "📊 Tournament Stats",
+    "totalMatches": "Total Matches",
+    "totalTeams": "Teams",
+    "totalVenues": "Host Cities",
+    "totalGroups": "Groups",
+    "totalHosts": "Host Nations",
+    "totalDays": "Days"
+  },
+  "venues": {
+    "title": "🏟️ 16 Venues",
+    "desc": "World-class stadiums across Canada, Mexico, and the USA"
+  },
+  "footer": {
+    "source": "Data source: FIFA Official | Fan-made info site, updated daily",
+    "updated": "Last updated: ",
+    "live": " (API Live)",
+    "static": " (Static Data)"
+  },
+  "language": {
+    "switch": "🌐 Language",
+    "zh": "中文",
+    "en": "English"
+  }
+}

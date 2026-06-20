@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 FIFA 世界杯 | 赛程与比赛分析</title>
+    <title>2026 FIFA World Cup | Schedule & Analysis</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
@@ -13,16 +13,17 @@
         <div class="nav-container">
             <div class="logo">
                 <span class="logo-icon">⚽</span>
-                <span class="logo-text">2026 世界杯</span>
+                <span class="logo-text">2026 World Cup</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#schedule" class="active">赛程</a></li>
-                <li><a href="#groups">小组积分</a></li>
-                <li><a href="#analysis">比赛分析</a></li>
-                <li><a href="#stats">数据统计</a></li>
-                <li><a href="#venues">球场</a></li>
+                <li><a href="#schedule" class="active" data-i18n="nav.schedule">赛程</a></li>
+                <li><a href="#groups" data-i18n="nav.groups">小组积分</a></li>
+                <li><a href="#analysis" data-i18n="nav.analysis">比赛分析</a></li>
+                <li><a href="#stats" data-i18n="nav.stats">数据统计</a></li>
+                <li><a href="#venues" data-i18n="nav.venues">球场</a></li>
             </ul>
             <div class="nav-actions">
+                <div id="langSwitcher"></div>
                 <span class="live-badge">🔴 LIVE</span>
                 <span class="update-time" id="updateTime"></span>
             </div>
@@ -33,20 +34,20 @@
     <header class="hero">
         <div class="hero-bg"></div>
         <div class="hero-content">
-            <div class="hero-badge">FIFA WORLD CUP 2026</div>
-            <h1 class="hero-title">加拿大 · 墨西哥 · 美国</h1>
-            <p class="hero-subtitle">48支球队 · 104场比赛 · 16座城市</p>
+            <div class="hero-badge" data-i18n="hero.badge">FIFA WORLD CUP 2026</div>
+            <h1 class="hero-title" data-i18n="hero.title">加拿大 · 墨西哥 · 美国</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">48支球队 · 104场比赛 · 16座城市</p>
             <div class="hero-meta">
                 <div class="meta-item">
-                    <span class="meta-label">比赛日期</span>
-                    <span class="meta-value">6月11日 - 7月19日</span>
+                    <span class="meta-label" data-i18n="hero.dateLabel">比赛日期</span>
+                    <span class="meta-value" data-i18n="hero.dateRange">6月11日 - 7月19日</span>
                 </div>
                 <div class="meta-item">
-                    <span class="meta-label">已进行</span>
+                    <span class="meta-label" data-i18n="hero.playedLabel">已进行</span>
                     <span class="meta-value" id="matchesPlayed">30场</span>
                 </div>
                 <div class="meta-item">
-                    <span class="meta-label">总进球</span>
+                    <span class="meta-label" data-i18n="hero.goalsLabel">总进球</span>
                     <span class="meta-value" id="totalGoals">92球</span>
                 </div>
             </div>
@@ -57,7 +58,7 @@
     <section class="today-matches">
         <div class="container">
             <div class="section-header">
-                <h2>📅 今日焦点</h2>
+                <h2 data-i18n="today.title">📅 今日焦点</h2>
                 <p class="section-desc" id="todayDate"></p>
             </div>
             <div class="matches-grid" id="todayMatches">
@@ -70,20 +71,20 @@
     <section class="schedule" id="schedule">
         <div class="container">
             <div class="section-header">
-                <h2>📋 赛程总览</h2>
+                <h2 data-i18n="schedule.title">📋 赛程总览</h2>
                 <div class="filter-bar">
-                    <button class="filter-btn active" data-filter="all">全部</button>
-                    <button class="filter-btn" data-filter="group">小组赛</button>
-                    <button class="filter-btn" data-filter="r32">1/8决赛</button>
-                    <button class="filter-btn" data-filter="r16">1/16决赛</button>
-                    <button class="filter-btn" data-filter="qf">1/4决赛</button>
-                    <button class="filter-btn" data-filter="sf">半决赛</button>
-                    <button class="filter-btn" data-filter="final">决赛</button>
+                    <button class="filter-btn active" data-filter="all" data-i18n="schedule.filterAll">全部</button>
+                    <button class="filter-btn" data-filter="group" data-i18n="schedule.filterGroup">小组赛</button>
+                    <button class="filter-btn" data-filter="r32" data-i18n="schedule.filterR32">1/8决赛</button>
+                    <button class="filter-btn" data-filter="r16" data-i18n="schedule.filterR16">1/16决赛</button>
+                    <button class="filter-btn" data-filter="qf" data-i18n="schedule.filterQF">1/4决赛</button>
+                    <button class="filter-btn" data-filter="sf" data-i18n="schedule.filterSF">半决赛</button>
+                    <button class="filter-btn" data-filter="final" data-i18n="schedule.filterFinal">决赛</button>
                 </div>
             </div>
             <div class="schedule-tabs">
-                <button class="tab-btn active" data-tab="upcoming">即将开赛</button>
-                <button class="tab-btn" data-tab="results">已完赛</button>
+                <button class="tab-btn active" data-tab="upcoming" data-i18n="schedule.tabUpcoming">即将开赛</button>
+                <button class="tab-btn" data-tab="results" data-i18n="schedule.tabResults">已完赛</button>
             </div>
             <div class="schedule-list" id="scheduleList">
                 <!-- 动态生成 -->
@@ -95,8 +96,8 @@
     <section class="groups" id="groups">
         <div class="container">
             <div class="section-header">
-                <h2>🏆 小组积分榜</h2>
-                <p class="section-desc">12个小组，每组前2名及8个最佳第3名晋级</p>
+                <h2 data-i18n="groups.title">🏆 小组积分榜</h2>
+                <p class="section-desc" data-i18n="groups.desc">12个小组，每组前2名及8个最佳第3名晋级</p>
             </div>
             <div class="group-selector">
                 <!-- 12个小组选择器 -->
@@ -111,14 +112,14 @@
     <section class="analysis" id="analysis">
         <div class="container">
             <div class="section-header">
-                <h2>🔍 比赛分析</h2>
-                <p class="section-desc">深度数据分析与战术解读</p>
+                <h2 data-i18n="analysis.title">🔍 比赛分析</h2>
+                <p class="section-desc" data-i18n="analysis.desc">深度数据分析与战术解读</p>
             </div>
             <div class="analysis-grid">
                 <!-- 焦点战分析卡片 -->
                 <div class="analysis-card featured">
                     <div class="card-header">
-                        <span class="card-tag">焦点战</span>
+                        <span class="card-tag" data-i18n="analysis.tagFeatured">焦点战</span>
                         <span class="card-date">小组赛 A组</span>
                     </div>
                     <div class="match-preview">
@@ -136,21 +137,21 @@
                         </div>
                     </div>
                     <div class="analysis-content">
-                        <h3>战术分析</h3>
+                        <h3 data-i18n="analysis.tacticsTitle">战术分析</h3>
                         <p>墨西哥在阿兹特克球场以1-0小胜南非， Julián Quiñones在第9分钟打入本届世界杯首球。墨西哥采用了4-3-3阵型，利用主场优势通过两翼快速推进制造威胁。南非在下半场加强了中场控制，但未能转化为有效进攻。</p>
                         <div class="analysis-stats">
                             <div class="stat-row">
-                                <span>控球率</span>
+                                <span data-i18n="analysis.statPossession">控球率</span>
                                 <div class="stat-bar"><div class="stat-fill" style="width:58%"></div></div>
                                 <span>58% - 42%</span>
                             </div>
                             <div class="stat-row">
-                                <span>射门</span>
+                                <span data-i18n="analysis.statShots">射门</span>
                                 <div class="stat-bar"><div class="stat-fill" style="width:65%"></div></div>
                                 <span>13 - 7</span>
                             </div>
                             <div class="stat-row">
-                                <span>射正</span>
+                                <span data-i18n="analysis.statOnTarget">射正</span>
                                 <div class="stat-bar"><div class="stat-fill" style="width:55%"></div></div>
                                 <span>5 - 4</span>
                             </div>
@@ -160,7 +161,7 @@
 
                 <div class="analysis-card">
                     <div class="card-header">
-                        <span class="card-tag">射手榜</span>
+                        <span class="card-tag" data-i18n="analysis.tagScorers">射手榜</span>
                     </div>
                     <div class="scorer-list">
                         <div class="scorer-item">
@@ -186,73 +187,73 @@
 
                 <div class="analysis-card">
                     <div class="card-header">
-                        <span class="card-tag">热门球队</span>
+                        <span class="card-tag" data-i18n="analysis.tagTeams">热门球队</span>
                     </div>
                     <div class="power-ranking">
                         <div class="rank-item">
                             <span class="rank-num">1</span>
                             <span class="flag">🇪🇸</span>
                             <span class="team-name">西班牙</span>
-                            <span class="rank-tag hot">夺冠热门</span>
+                            <span class="rank-tag hot" data-i18n="analysis.rankHot">夺冠热门</span>
                         </div>
                         <div class="rank-item">
                             <span class="rank-num">2</span>
                             <span class="flag">🇦🇷</span>
                             <span class="team-name">阿根廷</span>
-                            <span class="rank-tag">卫冕冠军</span>
+                            <span class="rank-tag" data-i18n="analysis.rankDefending">卫冕冠军</span>
                         </div>
                         <div class="rank-item">
                             <span class="rank-num">3</span>
                             <span class="flag">🇫🇷</span>
                             <span class="team-name">法国</span>
-                            <span class="rank-tag">劲旅</span>
+                            <span class="rank-tag" data-i18n="analysis.rankStrong">劲旅</span>
                         </div>
                         <div class="rank-item">
                             <span class="rank-num">4</span>
                             <span class="flag">🇧🇷</span>
                             <span class="team-name">巴西</span>
-                            <span class="rank-tag">劲旅</span>
+                            <span class="rank-tag" data-i18n="analysis.rankStrong">劲旅</span>
                         </div>
                         <div class="rank-item">
                             <span class="rank-num">5</span>
                             <span class="flag">🇩🇪</span>
                             <span class="team-name">德国</span>
-                            <span class="rank-tag">黑马</span>
+                            <span class="rank-tag" data-i18n="analysis.rankStrong">劲旅</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="analysis-card">
                     <div class="card-header">
-                        <span class="card-tag">新规则速览</span>
+                        <span class="card-tag" data-i18n="analysis.tagRules">新规则速览</span>
                     </div>
                     <div class="rules-list">
                         <div class="rule-item">
                             <span class="rule-icon">⏱️</span>
                             <div>
-                                <strong>10秒换人</strong>
-                                <p>被换下球员须在10秒内离场，否则替补需等待1分钟</p>
+                                <strong data-i18n="analysis.ruleSubstitutions">10秒换人</strong>
+                                <p data-i18n="analysis.ruleSubstitutionsDesc">被换下球员须在10秒内离场，否则替补需等待1分钟</p>
                             </div>
                         </div>
                         <div class="rule-item">
                             <span class="rule-icon">🔄</span>
                             <div>
-                                <strong>5秒重启</strong>
-                                <p>掷界外球和球门球5秒内须执行，违者交换球权</p>
+                                <strong data-i18n="analysis.ruleRestart">5秒重启</strong>
+                                <p data-i18n="analysis.ruleRestartDesc">掷界外球和球门球5秒内须执行，违者交换球权</p>
                             </div>
                         </div>
                         <div class="rule-item">
                             <span class="rule-icon">🚑</span>
                             <div>
-                                <strong>离场治疗</strong>
-                                <p>场上接受治疗的球员须离场等待1分钟方可回归</p>
+                                <strong data-i18n="analysis.ruleTreatment">离场治疗</strong>
+                                <p data-i18n="analysis.ruleTreatmentDesc">场上接受治疗的球员须离场等待1分钟方可回归</p>
                             </div>
                         </div>
                         <div class="rule-item">
                             <span class="rule-icon">🤫</span>
                             <div>
-                                <strong>捂嘴红牌</strong>
-                                <p>对峙时用手遮嘴将直接被出示红牌</p>
+                                <strong data-i18n="analysis.ruleMouth">捂嘴红牌</strong>
+                                <p data-i18n="analysis.ruleMouthDesc">对峙时用手遮嘴将直接被出示红牌</p>
                             </div>
                         </div>
                     </div>
@@ -265,32 +266,32 @@
     <section class="stats" id="stats">
         <div class="container">
             <div class="section-header">
-                <h2>📊 赛事数据</h2>
+                <h2 data-i18n="stats.title">📊 赛事数据</h2>
             </div>
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-number" data-target="104">0</div>
-                    <div class="stat-label">总场次</div>
+                    <div class="stat-label" data-i18n="stats.totalMatches">总场次</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number" data-target="48">0</div>
-                    <div class="stat-label">参赛球队</div>
+                    <div class="stat-label" data-i18n="stats.totalTeams">参赛球队</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number" data-target="16">0</div>
-                    <div class="stat-label">举办城市</div>
+                    <div class="stat-label" data-i18n="stats.totalVenues">举办城市</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number" data-target="12">0</div>
-                    <div class="stat-label">小组数量</div>
+                    <div class="stat-label" data-i18n="stats.totalGroups">小组数量</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number" data-target="3">0</div>
-                    <div class="stat-label">主办国家</div>
+                    <div class="stat-label" data-i18n="stats.totalHosts">主办国家</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number" data-target="39">0</div>
-                    <div class="stat-label">比赛天数</div>
+                    <div class="stat-label" data-i18n="stats.totalDays">比赛天数</div>
                 </div>
             </div>
         </div>
@@ -300,8 +301,8 @@
     <section class="venues" id="venues">
         <div class="container">
             <div class="section-header">
-                <h2>🏟️ 16座球场</h2>
-                <p class="section-desc">横跨加拿大、墨西哥、美国三国的顶级球场</p>
+                <h2 data-i18n="venues.title">🏟️ 16座球场</h2>
+                <p class="section-desc" data-i18n="venues.desc">横跨加拿大、墨西哥、美国三国的顶级球场</p>
             </div>
             <div class="venues-grid" id="venuesGrid">
                 <!-- 动态生成 -->
@@ -315,15 +316,16 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <span class="logo-icon">⚽</span>
-                    <span>2026 FIFA World Cup 赛程与分析</span>
+                    <span>2026 FIFA World Cup</span>
                 </div>
-                <p class="footer-note">数据来源：FIFA官方 | 本站为球迷自制信息站，每日更新赛程与赛果</p>
-                <p class="footer-update">最后更新：<span id="footerTime"></span></p>
+                <p class="footer-note" data-i18n="footer.source">数据来源：FIFA官方 | 本站为球迷自制信息站，每日更新赛程与赛果</p>
+                <p class="footer-update"><span data-i18n="footer.updated">最后更新：</span><span id="footerTime"></span></p>
             </div>
         </div>
     </footer>
 
     <script src="data.js"></script>
+    <script src="i18n.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

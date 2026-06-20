@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "schedule": "赛程",
+    "groups": "小组积分",
+    "analysis": "比赛分析",
+    "stats": "数据统计",
+    "venues": "球场"
+  },
+  "hero": {
+    "badge": "FIFA WORLD CUP 2026",
+    "title": "加拿大 · 墨西哥 · 美国",
+    "subtitle": "48支球队 · 104场比赛 · 16座城市",
+    "dateLabel": "比赛日期",
+    "playedLabel": "已进行",
+    "goalsLabel": "总进球",
+    "dateRange": "6月11日 - 7月19日"
+  },
+  "today": {
+    "title": "📅 今日焦点",
+    "noMatches": "暂无即将开赛的比赛"
+  },
+  "schedule": {
+    "title": "📋 赛程总览",
+    "filterAll": "全部",
+    "filterGroup": "小组赛",
+    "filterR32": "1/8决赛",
+    "filterR16": "1/16决赛",
+    "filterQF": "1/4决赛",
+    "filterSF": "半决赛",
+    "filterFinal": "决赛",
+    "tabUpcoming": "即将开赛",
+    "tabLive": "🔴 进行中",
+    "tabResults": "已完赛",
+    "noMatches": "暂无匹配的比赛",
+    "statusUpcoming": "未开始",
+    "statusLive": "进行中",
+    "statusFinished": "完赛"
+  },
+  "groups": {
+    "title": "🏆 小组积分榜",
+    "desc": "12个小组，每组前2名及8个最佳第3名晋级",
+    "advance": "前2名晋级",
+    "colRank": "#",
+    "colTeam": "球队",
+    "colPlayed": "场",
+    "colWon": "胜",
+    "colDraw": "平",
+    "colLost": "负",
+    "colGoals": "进球",
+    "colPoints": "积分",
+    "noData": "暂无小组数据"
+  },
+  "analysis": {
+    "title": "🔍 比赛分析",
+    "desc": "深度数据分析与战术解读",
+    "tagFeatured": "焦点战",
+    "tagScorers": "射手榜",
+    "tagTeams": "热门球队",
+    "tagRules": "新规则速览",
+    "tacticsTitle": "战术分析",
+    "statPossession": "控球率",
+    "statShots": "射门",
+    "statOnTarget": "射正",
+    "rankHot": "夺冠热门",
+    "rankDefending": "卫冕冠军",
+    "rankStrong": "劲旅",
+    "ruleSubstitutions": "10秒换人",
+    "ruleSubstitutionsDesc": "被换下球员须在10秒内离场，否则替补需等待1分钟",
+    "ruleRestart": "5秒重启",
+    "ruleRestartDesc": "掷界外球和球门球5秒内须执行，违者交换球权",
+    "ruleTreatment": "离场治疗",
+    "ruleTreatmentDesc": "场上接受治疗的球员须离场等待1分钟方可回归",
+    "ruleMouth": "捂嘴红牌",
+    "ruleMouthDesc": "对峙时用手遮嘴将直接被出示红牌"
+  },
+  "stats": {
+    "title": "📊 赛事数据",
+    "totalMatches": "总场次",
+    "totalTeams": "参赛球队",
+    "totalVenues": "举办城市",
+    "totalGroups": "小组数量",
+    "totalHosts": "主办国家",
+    "totalDays": "比赛天数"
+  },
+  "venues": {
+    "title": "🏟️ 16座球场",
+    "desc": "横跨加拿大、墨西哥、美国三国的顶级球场"
+  },
+  "footer": {
+    "source": "数据来源：FIFA官方 | 本站为球迷自制信息站，每日更新赛程与赛果",
+    "updated": "最后更新：",
+    "live": " (API实时)",
+    "static": " (静态数据)"
+  },
+  "language": {
+    "switch": "🌐 语言",
+    "zh": "中文",
+    "en": "English"
+  }
+}
