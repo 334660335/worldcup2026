@@ -1100,21 +1100,21 @@
       "awayId": 766,
       "awayShort": "Japan",
       "awayTla": "JPN",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 4,
+      "halfTimeHome": 0,
+      "halfTimeAway": 2,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "group",
       "group": "F",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537371,
@@ -3309,6 +3309,22 @@
           "form": "W,D"
         },
         {
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "code": "JPN",
+          "shortName": "Japan",
+          "p": 2,
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "gf": 6,
+          "ga": 2,
+          "gd": 4,
+          "pts": 4,
+          "rank": 6,
+          "form": "W,D"
+        },
+        {
           "name": "Switzerland",
           "flag": "🇨🇭",
           "code": "SUI",
@@ -3321,7 +3337,7 @@
           "ga": 2,
           "gd": 3,
           "pts": 4,
-          "rank": 6,
+          "rank": 7,
           "form": "W,D"
         },
         {
@@ -3337,7 +3353,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 4,
-          "rank": 7,
+          "rank": 8,
           "form": "W,D"
         },
         {
@@ -3353,7 +3369,7 @@
           "ga": 1,
           "gd": 1,
           "pts": 4,
-          "rank": 8,
+          "rank": 9,
           "form": "W,D"
         },
         {
@@ -3369,7 +3385,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 3,
-          "rank": 9,
+          "rank": 10,
           "form": "W"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 0,
           "gd": 3,
           "pts": 3,
-          "rank": 10,
+          "rank": 11,
           "form": "W"
         },
         {
@@ -3401,7 +3417,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 3,
-          "rank": 11,
+          "rank": 12,
           "form": "W"
         },
         {
@@ -3417,7 +3433,7 @@
           "ga": 1,
           "gd": 2,
           "pts": 3,
-          "rank": 12,
+          "rank": 13,
           "form": "W"
         },
         {
@@ -3433,7 +3449,7 @@
           "ga": 1,
           "gd": 2,
           "pts": 3,
-          "rank": 13,
+          "rank": 14,
           "form": "W"
         },
         {
@@ -3449,7 +3465,7 @@
           "ga": 1,
           "gd": 2,
           "pts": 3,
-          "rank": 14,
+          "rank": 15,
           "form": "W"
         },
         {
@@ -3465,7 +3481,7 @@
           "ga": 0,
           "gd": 1,
           "pts": 3,
-          "rank": 15,
+          "rank": 16,
           "form": "W"
         },
         {
@@ -3481,7 +3497,7 @@
           "ga": 6,
           "gd": 0,
           "pts": 3,
-          "rank": 16,
+          "rank": 17,
           "form": "L,W"
         },
         {
@@ -3497,7 +3513,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 17,
+          "rank": 18,
           "form": "L,W"
         },
         {
@@ -3513,7 +3529,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 18,
+          "rank": 19,
           "form": "L,W"
         },
         {
@@ -3529,7 +3545,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 19,
+          "rank": 20,
           "form": "L,W"
         },
         {
@@ -3545,7 +3561,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 3,
-          "rank": 20,
+          "rank": 21,
           "form": "L,W"
         },
         {
@@ -3561,24 +3577,8 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 21,
-          "form": "W,L"
-        },
-        {
-          "name": "Japan",
-          "flag": "🇯🇵",
-          "code": "JPN",
-          "shortName": "Japan",
-          "p": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 1,
           "rank": 22,
-          "form": "D"
+          "form": "W,L"
         },
         {
           "name": "Iran",
@@ -3965,22 +3965,6 @@
           "form": "L"
         },
         {
-          "name": "Tunisia",
-          "flag": "🇹🇳",
-          "code": "TUN",
-          "shortName": "Tunisia",
-          "p": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 5,
-          "gd": -4,
-          "pts": 0,
-          "rank": 47,
-          "form": "L"
-        },
-        {
           "name": "Haiti",
           "flag": "🇭🇹",
           "code": "HAI",
@@ -3992,6 +3976,22 @@
           "gf": 0,
           "ga": 4,
           "gd": -4,
+          "pts": 0,
+          "rank": 47,
+          "form": "L,L"
+        },
+        {
+          "name": "Tunisia",
+          "flag": "🇹🇳",
+          "code": "TUN",
+          "shortName": "Tunisia",
+          "p": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gf": 1,
+          "ga": 9,
+          "gd": -8,
           "pts": 0,
           "rank": 48,
           "form": "L,L"
@@ -4071,6 +4071,15 @@
       "goals": 2,
       "assists": null,
       "penalties": 1
+    },
+    {
+      "name": "Daichi Kamada",
+      "flag": "🇯🇵",
+      "team": "Japan",
+      "teamShort": "Japan",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
     },
     {
       "name": "Yasin Ayari",
@@ -4154,6 +4163,15 @@
       "penalties": null
     },
     {
+      "name": "Ayase Ueda",
+      "flag": "🇯🇵",
+      "team": "Japan",
+      "teamShort": "Japan",
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Julián Quiñones",
       "flag": "🇲🇽",
       "team": "Mexico",
@@ -4161,27 +4179,9 @@
       "goals": 1,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Raúl Jiménez",
-      "flag": "🇲🇽",
-      "team": "Mexico",
-      "teamShort": "Mexico",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "name": "Ladislav Krejčí",
-      "flag": "🏳️",
-      "team": "Czechia",
-      "teamShort": "Czechia",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-21T03:42:33.231507+00:00",
+  "lastUpdate": "2026-06-21T08:26:34.248826+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
