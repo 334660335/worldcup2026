@@ -448,7 +448,7 @@
       "awayFlag": "🇺🇾",
       "awayId": 758,
       "awayShort": "Uruguay",
-      "awayTla": "URU",
+      "awayTla": "URY",
       "homeScore": 1,
       "awayScore": 1,
       "halfTimeHome": 1,
@@ -1069,21 +1069,21 @@
       "awayId": 9460,
       "awayShort": "Curaçao",
       "awayTla": "CUW",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "group",
       "group": "E",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537360,
@@ -1187,7 +1187,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Cape Verde Islands",
       "awayFlag": "🏳️",
       "awayId": 1930,
@@ -1931,7 +1931,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Spain",
       "awayFlag": "🇪🇸",
       "awayId": 760,
@@ -3757,6 +3757,22 @@
           "form": "D,L"
         },
         {
+          "name": "Ecuador",
+          "flag": "🇪🇨",
+          "code": "ECU",
+          "shortName": "Ecuador",
+          "p": 2,
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "pts": 1,
+          "rank": 34,
+          "form": "D,L"
+        },
+        {
           "name": "South Africa",
           "flag": "🇿🇦",
           "code": "RSA",
@@ -3769,7 +3785,7 @@
           "ga": 3,
           "gd": -2,
           "pts": 1,
-          "rank": 34,
+          "rank": 35,
           "form": "D,L"
         },
         {
@@ -3785,7 +3801,7 @@
           "ga": 5,
           "gd": -3,
           "pts": 1,
-          "rank": 35,
+          "rank": 36,
           "form": "L,D"
         },
         {
@@ -3801,24 +3817,24 @@
           "ga": 7,
           "gd": -6,
           "pts": 1,
-          "rank": 36,
+          "rank": 37,
           "form": "L,D"
         },
         {
-          "name": "Ecuador",
-          "flag": "🇪🇨",
-          "code": "ECU",
-          "shortName": "Ecuador",
-          "p": 1,
+          "name": "Curaçao",
+          "flag": "🇨🇼",
+          "code": "CUW",
+          "shortName": "Curaçao",
+          "p": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
-          "pts": 0,
-          "rank": 37,
-          "form": "L"
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "pts": 1,
+          "rank": 38,
+          "form": "D,L"
         },
         {
           "name": "Panama",
@@ -3833,7 +3849,7 @@
           "ga": 1,
           "gd": -1,
           "pts": 0,
-          "rank": 38,
+          "rank": 39,
           "form": "L"
         },
         {
@@ -3849,7 +3865,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 0,
-          "rank": 39,
+          "rank": 40,
           "form": "L"
         },
         {
@@ -3865,7 +3881,7 @@
           "ga": 3,
           "gd": -2,
           "pts": 0,
-          "rank": 40,
+          "rank": 41,
           "form": "L"
         },
         {
@@ -3881,7 +3897,7 @@
           "ga": 3,
           "gd": -2,
           "pts": 0,
-          "rank": 41,
+          "rank": 42,
           "form": "L"
         },
         {
@@ -3897,7 +3913,7 @@
           "ga": 3,
           "gd": -2,
           "pts": 0,
-          "rank": 42,
+          "rank": 43,
           "form": "L"
         },
         {
@@ -3913,7 +3929,7 @@
           "ga": 4,
           "gd": -3,
           "pts": 0,
-          "rank": 43,
+          "rank": 44,
           "form": "L"
         },
         {
@@ -3929,7 +3945,7 @@
           "ga": 3,
           "gd": -3,
           "pts": 0,
-          "rank": 44,
+          "rank": 45,
           "form": "L,L"
         },
         {
@@ -3945,7 +3961,7 @@
           "ga": 3,
           "gd": -3,
           "pts": 0,
-          "rank": 45,
+          "rank": 46,
           "form": "L"
         },
         {
@@ -3961,7 +3977,7 @@
           "ga": 5,
           "gd": -4,
           "pts": 0,
-          "rank": 46,
+          "rank": 47,
           "form": "L"
         },
         {
@@ -3977,24 +3993,8 @@
           "ga": 4,
           "gd": -4,
           "pts": 0,
-          "rank": 47,
-          "form": "L,L"
-        },
-        {
-          "name": "Curaçao",
-          "flag": "🇨🇼",
-          "code": "CUW",
-          "shortName": "Curaçao",
-          "p": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "pts": 0,
           "rank": 48,
-          "form": "L"
+          "form": "L,L"
         }
       ]
     }
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-20T23:03:42.939521+00:00",
+  "lastUpdate": "2026-06-21T03:42:33.231507+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
