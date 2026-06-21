@@ -77,10 +77,10 @@
       "awayId": 1060,
       "awayShort": "Bosnia-H.",
       "awayTla": "BIH",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
@@ -91,7 +91,7 @@
       "matchday": 1,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537345,
@@ -1193,21 +1193,21 @@
       "awayId": 1930,
       "awayShort": "Cape Verde",
       "awayTla": "CPV",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTimeHome": 2,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "H",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537366,
@@ -4091,6 +4091,15 @@
       "penalties": null
     },
     {
+      "name": "Maximiliano Araújo",
+      "flag": "🇺🇾",
+      "team": "Uruguay",
+      "teamShort": "Uruguay",
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Elijah Just",
       "flag": "🇳🇿",
       "team": "New Zealand",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "flag": "🇪🇸",
-      "team": "Spain",
-      "teamShort": "Spain",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-21T21:10:59.616257+00:00",
+  "lastUpdate": "2026-06-21T23:09:16.393706+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
