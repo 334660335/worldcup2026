@@ -448,7 +448,7 @@
       "awayFlag": "🇺🇾",
       "awayId": 758,
       "awayShort": "Uruguay",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "homeScore": 1,
       "awayScore": 1,
       "halfTimeHome": 1,
@@ -1187,7 +1187,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayFlag": "🏳️",
       "awayId": 1930,
@@ -1255,21 +1255,21 @@
       "awayId": 816,
       "awayShort": "Austria",
       "awayTla": "AUT",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "group",
       "group": "J",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537393,
@@ -1931,7 +1931,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayFlag": "🇪🇸",
       "awayId": 760,
@@ -3261,6 +3261,22 @@
           "form": "W,W"
         },
         {
+          "name": "Argentina",
+          "flag": "🇦🇷",
+          "code": "ARG",
+          "shortName": "Argentina",
+          "p": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gf": 5,
+          "ga": 0,
+          "gd": 5,
+          "pts": 6,
+          "rank": 3,
+          "form": "W,W"
+        },
+        {
           "name": "Mexico",
           "flag": "🇲🇽",
           "code": "MEX",
@@ -3273,7 +3289,7 @@
           "ga": 0,
           "gd": 3,
           "pts": 6,
-          "rank": 3,
+          "rank": 4,
           "form": "W,W"
         },
         {
@@ -3289,7 +3305,7 @@
           "ga": 1,
           "gd": 6,
           "pts": 4,
-          "rank": 4,
+          "rank": 5,
           "form": "W,D"
         },
         {
@@ -3305,7 +3321,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 5,
+          "rank": 6,
           "form": "W,D"
         },
         {
@@ -3321,7 +3337,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 4,
-          "rank": 6,
+          "rank": 7,
           "form": "W,D"
         },
         {
@@ -3337,7 +3353,7 @@
           "ga": 0,
           "gd": 4,
           "pts": 4,
-          "rank": 7,
+          "rank": 8,
           "form": "W,D"
         },
         {
@@ -3353,7 +3369,7 @@
           "ga": 2,
           "gd": 3,
           "pts": 4,
-          "rank": 8,
+          "rank": 9,
           "form": "W,D"
         },
         {
@@ -3369,7 +3385,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 4,
-          "rank": 9,
+          "rank": 10,
           "form": "W,D"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 10,
+          "rank": 11,
           "form": "W,D"
         },
         {
@@ -3401,7 +3417,7 @@
           "ga": 1,
           "gd": 1,
           "pts": 4,
-          "rank": 11,
+          "rank": 12,
           "form": "W,D"
         },
         {
@@ -3415,22 +3431,6 @@
           "l": 0,
           "gf": 4,
           "ga": 1,
-          "gd": 3,
-          "pts": 3,
-          "rank": 12,
-          "form": "W"
-        },
-        {
-          "name": "Argentina",
-          "flag": "🇦🇷",
-          "code": "ARG",
-          "shortName": "Argentina",
-          "p": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gf": 3,
-          "ga": 0,
           "gd": 3,
           "pts": 3,
           "rank": 13,
@@ -3469,22 +3469,6 @@
           "form": "W"
         },
         {
-          "name": "Austria",
-          "flag": "🇦🇹",
-          "code": "AUT",
-          "shortName": "Austria",
-          "p": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
-          "pts": 3,
-          "rank": 16,
-          "form": "W"
-        },
-        {
           "name": "Colombia",
           "flag": "🇨🇴",
           "code": "COL",
@@ -3497,7 +3481,7 @@
           "ga": 1,
           "gd": 2,
           "pts": 3,
-          "rank": 17,
+          "rank": 16,
           "form": "W"
         },
         {
@@ -3513,7 +3497,7 @@
           "ga": 0,
           "gd": 1,
           "pts": 3,
-          "rank": 18,
+          "rank": 17,
           "form": "W"
         },
         {
@@ -3527,6 +3511,22 @@
           "l": 1,
           "gf": 6,
           "ga": 6,
+          "gd": 0,
+          "pts": 3,
+          "rank": 18,
+          "form": "L,W"
+        },
+        {
+          "name": "Austria",
+          "flag": "🇦🇹",
+          "code": "AUT",
+          "shortName": "Austria",
+          "p": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gf": 3,
+          "ga": 3,
           "gd": 0,
           "pts": 3,
           "rank": 19,
@@ -4001,21 +4001,21 @@
   },
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "flag": "🇦🇷",
+      "team": "Argentina",
+      "teamShort": "Argentina",
+      "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Deniz Undav",
       "flag": "🇩🇪",
       "team": "Germany",
       "teamShort": "Germany",
       "goals": 3,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "name": "Lionel Messi",
-      "flag": "🇦🇷",
-      "team": "Argentina",
-      "teamShort": "Argentina",
-      "goals": 3,
-      "assists": null,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-22T15:22:11.704886+00:00",
+  "lastUpdate": "2026-06-22T19:22:24.004864+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
