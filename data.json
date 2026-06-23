@@ -1348,21 +1348,21 @@
       "awayId": 778,
       "awayShort": "Algeria",
       "awayTla": "ALG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "group",
       "group": "J",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537405,
@@ -2299,11 +2299,11 @@
       "date": "2026-06-29",
       "time": "20:30",
       "timestamp": 1782765000,
-      "home": "Germany",
-      "homeFlag": "🇩🇪",
-      "homeId": 759,
-      "homeShort": "Germany",
-      "homeTla": "GER",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2423,11 +2423,11 @@
       "date": "2026-07-01",
       "time": "01:00",
       "timestamp": 1782867600,
-      "home": "Mexico",
-      "homeFlag": "🇲🇽",
-      "homeId": 769,
-      "homeShort": "Mexico",
-      "homeTla": "MEX",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2516,11 +2516,11 @@
       "date": "2026-07-02",
       "time": "00:00",
       "timestamp": 1782950400,
-      "home": "United States",
-      "homeFlag": "🇺🇸",
-      "homeId": 771,
-      "homeShort": "USA",
-      "homeTla": "USA",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -3613,6 +3613,22 @@
           "form": "W,L"
         },
         {
+          "name": "Algeria",
+          "flag": "🇩🇿",
+          "code": "ALG",
+          "shortName": "Algeria",
+          "p": 2,
+          "w": 1,
+          "d": 0,
+          "l": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 3,
+          "rank": 25,
+          "form": "W,L"
+        },
+        {
           "name": "Uruguay",
           "flag": "🇺🇾",
           "code": "URU",
@@ -3625,7 +3641,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 2,
-          "rank": 25,
+          "rank": 26,
           "form": "D,D"
         },
         {
@@ -3641,7 +3657,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 26,
+          "rank": 27,
           "form": "D,D"
         },
         {
@@ -3657,7 +3673,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 27,
+          "rank": 28,
           "form": "D,D"
         },
         {
@@ -3673,7 +3689,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 2,
-          "rank": 28,
+          "rank": 29,
           "form": "D,D"
         },
         {
@@ -3689,7 +3705,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 1,
-          "rank": 29,
+          "rank": 30,
           "form": "D"
         },
         {
@@ -3705,7 +3721,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 1,
-          "rank": 30,
+          "rank": 31,
           "form": "D"
         },
         {
@@ -3721,7 +3737,7 @@
           "ga": 3,
           "gd": -1,
           "pts": 1,
-          "rank": 31,
+          "rank": 32,
           "form": "D,L"
         },
         {
@@ -3737,7 +3753,7 @@
           "ga": 1,
           "gd": -1,
           "pts": 1,
-          "rank": 32,
+          "rank": 33,
           "form": "D,L"
         },
         {
@@ -3753,7 +3769,7 @@
           "ga": 5,
           "gd": -2,
           "pts": 1,
-          "rank": 33,
+          "rank": 34,
           "form": "L,D"
         },
         {
@@ -3769,7 +3785,7 @@
           "ga": 3,
           "gd": -2,
           "pts": 1,
-          "rank": 34,
+          "rank": 35,
           "form": "D,L"
         },
         {
@@ -3785,7 +3801,7 @@
           "ga": 5,
           "gd": -3,
           "pts": 1,
-          "rank": 35,
+          "rank": 36,
           "form": "L,D"
         },
         {
@@ -3801,7 +3817,7 @@
           "ga": 5,
           "gd": -4,
           "pts": 1,
-          "rank": 36,
+          "rank": 37,
           "form": "L,D"
         },
         {
@@ -3817,7 +3833,7 @@
           "ga": 7,
           "gd": -6,
           "pts": 1,
-          "rank": 37,
+          "rank": 38,
           "form": "L,D"
         },
         {
@@ -3833,7 +3849,7 @@
           "ga": 7,
           "gd": -6,
           "pts": 1,
-          "rank": 38,
+          "rank": 39,
           "form": "D,L"
         },
         {
@@ -3849,7 +3865,7 @@
           "ga": 1,
           "gd": -1,
           "pts": 0,
-          "rank": 39,
+          "rank": 40,
           "form": "L"
         },
         {
@@ -3863,22 +3879,6 @@
           "l": 1,
           "gf": 2,
           "ga": 4,
-          "gd": -2,
-          "pts": 0,
-          "rank": 40,
-          "form": "L"
-        },
-        {
-          "name": "Jordan",
-          "flag": "🇯🇴",
-          "code": "JOR",
-          "shortName": "Jordan",
-          "p": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 3,
           "gd": -2,
           "pts": 0,
           "rank": 41,
@@ -3917,6 +3917,22 @@
           "form": "L,L"
         },
         {
+          "name": "Jordan",
+          "flag": "🇯🇴",
+          "code": "JOR",
+          "shortName": "Jordan",
+          "p": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gf": 2,
+          "ga": 5,
+          "gd": -3,
+          "pts": 0,
+          "rank": 44,
+          "form": "L,L"
+        },
+        {
           "name": "Turkey",
           "flag": "🇹🇷",
           "code": "TUR",
@@ -3929,24 +3945,8 @@
           "ga": 3,
           "gd": -3,
           "pts": 0,
-          "rank": 44,
-          "form": "L,L"
-        },
-        {
-          "name": "Algeria",
-          "flag": "🇩🇿",
-          "code": "ALG",
-          "shortName": "Algeria",
-          "p": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 0,
-          "ga": 3,
-          "gd": -3,
-          "pts": 0,
           "rank": 45,
-          "form": "L"
+          "form": "L,L"
         },
         {
           "name": "Haiti",
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-23T02:50:24.272749+00:00",
+  "lastUpdate": "2026-06-23T07:44:00.646135+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
