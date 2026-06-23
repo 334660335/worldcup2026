@@ -1410,21 +1410,21 @@
       "awayId": 763,
       "awayShort": "Ghana",
       "awayTla": "GHA",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "L",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537412,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-23T19:55:49.564648+00:00",
+  "lastUpdate": "2026-06-23T21:42:21.803829+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
