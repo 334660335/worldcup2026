@@ -448,7 +448,7 @@
       "awayFlag": "🇺🇾",
       "awayId": 758,
       "awayShort": "Uruguay",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "homeScore": 1,
       "awayScore": 1,
       "halfTimeHome": 1,
@@ -1187,7 +1187,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayFlag": "🏳️",
       "awayId": 1930,
@@ -1379,15 +1379,15 @@
       "awayId": 8070,
       "awayShort": "Uzbekistan",
       "awayTla": "UZB",
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "halfTimeHome": 3,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "K",
       "matchday": 2,
@@ -1931,7 +1931,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayFlag": "🇪🇸",
       "awayId": 760,
@@ -2299,11 +2299,11 @@
       "date": "2026-06-29",
       "time": "20:30",
       "timestamp": 1782765000,
-      "home": null,
-      "homeFlag": "🏳️",
-      "homeId": null,
-      "homeShort": null,
-      "homeTla": null,
+      "home": "Germany",
+      "homeFlag": "🇩🇪",
+      "homeId": 759,
+      "homeShort": "Germany",
+      "homeTla": "GER",
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2423,11 +2423,11 @@
       "date": "2026-07-01",
       "time": "01:00",
       "timestamp": 1782867600,
-      "home": null,
-      "homeFlag": "🏳️",
-      "homeId": null,
-      "homeShort": null,
-      "homeTla": null,
+      "home": "Mexico",
+      "homeFlag": "🇲🇽",
+      "homeId": 769,
+      "homeShort": "Mexico",
+      "homeTla": "MEX",
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2516,11 +2516,11 @@
       "date": "2026-07-02",
       "time": "00:00",
       "timestamp": 1782950400,
-      "home": null,
-      "homeFlag": "🏳️",
-      "homeId": null,
-      "homeShort": null,
-      "homeTla": null,
+      "home": "United States",
+      "homeFlag": "🇺🇸",
+      "homeId": 771,
+      "homeShort": "USA",
+      "homeTla": "USA",
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -3341,6 +3341,22 @@
           "form": "W,D"
         },
         {
+          "name": "Portugal",
+          "flag": "🇵🇹",
+          "code": "POR",
+          "shortName": "Portugal",
+          "p": 2,
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "gf": 6,
+          "ga": 1,
+          "gd": 5,
+          "pts": 4,
+          "rank": 8,
+          "form": "W,D"
+        },
+        {
           "name": "Netherlands",
           "flag": "🇳🇱",
           "code": "NED",
@@ -3353,7 +3369,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 8,
+          "rank": 9,
           "form": "W,D"
         },
         {
@@ -3369,7 +3385,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 4,
-          "rank": 9,
+          "rank": 10,
           "form": "W,D"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 0,
           "gd": 4,
           "pts": 4,
-          "rank": 10,
+          "rank": 11,
           "form": "W,D"
         },
         {
@@ -3401,7 +3417,7 @@
           "ga": 2,
           "gd": 3,
           "pts": 4,
-          "rank": 11,
+          "rank": 12,
           "form": "W,D"
         },
         {
@@ -3417,7 +3433,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 4,
-          "rank": 12,
+          "rank": 13,
           "form": "W,D"
         },
         {
@@ -3433,7 +3449,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 13,
+          "rank": 14,
           "form": "W,D"
         },
         {
@@ -3449,7 +3465,7 @@
           "ga": 1,
           "gd": 1,
           "pts": 4,
-          "rank": 14,
+          "rank": 15,
           "form": "W,D"
         },
         {
@@ -3465,7 +3481,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 3,
-          "rank": 15,
+          "rank": 16,
           "form": "W"
         },
         {
@@ -3481,7 +3497,7 @@
           "ga": 1,
           "gd": 2,
           "pts": 3,
-          "rank": 16,
+          "rank": 17,
           "form": "W"
         },
         {
@@ -3497,7 +3513,7 @@
           "ga": 0,
           "gd": 1,
           "pts": 3,
-          "rank": 17,
+          "rank": 18,
           "form": "W"
         },
         {
@@ -3513,7 +3529,7 @@
           "ga": 6,
           "gd": 0,
           "pts": 3,
-          "rank": 18,
+          "rank": 19,
           "form": "L,W"
         },
         {
@@ -3529,7 +3545,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 3,
-          "rank": 19,
+          "rank": 20,
           "form": "L,W"
         },
         {
@@ -3545,7 +3561,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 20,
+          "rank": 21,
           "form": "L,W"
         },
         {
@@ -3561,7 +3577,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 21,
+          "rank": 22,
           "form": "L,W"
         },
         {
@@ -3577,7 +3593,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 22,
+          "rank": 23,
           "form": "L,W"
         },
         {
@@ -3593,7 +3609,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 3,
-          "rank": 23,
+          "rank": 24,
           "form": "L,W"
         },
         {
@@ -3609,7 +3625,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 24,
+          "rank": 25,
           "form": "W,L"
         },
         {
@@ -3625,7 +3641,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 25,
+          "rank": 26,
           "form": "W,L"
         },
         {
@@ -3641,7 +3657,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 2,
-          "rank": 26,
+          "rank": 27,
           "form": "D,D"
         },
         {
@@ -3657,7 +3673,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 27,
+          "rank": 28,
           "form": "D,D"
         },
         {
@@ -3673,7 +3689,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 28,
+          "rank": 29,
           "form": "D,D"
         },
         {
@@ -3689,24 +3705,8 @@
           "ga": 1,
           "gd": 0,
           "pts": 2,
-          "rank": 29,
-          "form": "D,D"
-        },
-        {
-          "name": "Portugal",
-          "flag": "🇵🇹",
-          "code": "POR",
-          "shortName": "Portugal",
-          "p": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1,
           "rank": 30,
-          "form": "D"
+          "form": "D,D"
         },
         {
           "name": "Congo DR",
@@ -3885,22 +3885,6 @@
           "form": "L"
         },
         {
-          "name": "Uzbekistan",
-          "flag": "🇺🇿",
-          "code": "UZB",
-          "shortName": "Uzbekistan",
-          "p": 1,
-          "w": 0,
-          "d": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
-          "pts": 0,
-          "rank": 42,
-          "form": "L"
-        },
-        {
           "name": "Senegal",
           "flag": "🇸🇳",
           "code": "SEN",
@@ -3913,7 +3897,7 @@
           "ga": 6,
           "gd": -3,
           "pts": 0,
-          "rank": 43,
+          "rank": 42,
           "form": "L,L"
         },
         {
@@ -3929,7 +3913,7 @@
           "ga": 5,
           "gd": -3,
           "pts": 0,
-          "rank": 44,
+          "rank": 43,
           "form": "L,L"
         },
         {
@@ -3945,7 +3929,7 @@
           "ga": 3,
           "gd": -3,
           "pts": 0,
-          "rank": 45,
+          "rank": 44,
           "form": "L,L"
         },
         {
@@ -3961,7 +3945,7 @@
           "ga": 4,
           "gd": -4,
           "pts": 0,
-          "rank": 46,
+          "rank": 45,
           "form": "L,L"
         },
         {
@@ -3976,6 +3960,22 @@
           "gf": 1,
           "ga": 7,
           "gd": -6,
+          "pts": 0,
+          "rank": 46,
+          "form": "L,L"
+        },
+        {
+          "name": "Uzbekistan",
+          "flag": "🇺🇿",
+          "code": "UZB",
+          "shortName": "Uzbekistan",
+          "p": 2,
+          "w": 0,
+          "d": 0,
+          "l": 2,
+          "gf": 1,
+          "ga": 8,
+          "gd": -7,
           "pts": 0,
           "rank": 47,
           "form": "L,L"
@@ -4078,7 +4078,7 @@
       "team": "Brazil",
       "teamShort": "Brazil",
       "goals": 2,
-      "assists": 2,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-23T17:49:30.269831+00:00",
+  "lastUpdate": "2026-06-23T19:55:49.564648+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
