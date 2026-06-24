@@ -448,7 +448,7 @@
       "awayFlag": "🇺🇾",
       "awayId": 758,
       "awayShort": "Uruguay",
-      "awayTla": "URU",
+      "awayTla": "URY",
       "homeScore": 1,
       "awayScore": 1,
       "halfTimeHome": 1,
@@ -1187,7 +1187,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Cape Verde Islands",
       "awayFlag": "🏳️",
       "awayId": 1930,
@@ -1503,21 +1503,21 @@
       "awayId": 828,
       "awayShort": "Canada",
       "awayTla": "CAN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "B",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537338,
@@ -1534,15 +1534,15 @@
       "awayId": 8030,
       "awayShort": "Qatar",
       "awayTla": "QAT",
-      "homeScore": 2,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "halfTimeHome": 2,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "B",
       "matchday": 3,
@@ -1931,7 +1931,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Spain",
       "awayFlag": "🇪🇸",
       "awayId": 760,
@@ -3229,6 +3229,22 @@
     "n": {
       "teams": [
         {
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "code": "SUI",
+          "shortName": "Switzerland",
+          "p": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "pts": 7,
+          "rank": 1,
+          "form": "W,W,D"
+        },
+        {
           "name": "Germany",
           "flag": "🇩🇪",
           "code": "GER",
@@ -3241,7 +3257,7 @@
           "ga": 2,
           "gd": 7,
           "pts": 6,
-          "rank": 1,
+          "rank": 2,
           "form": "W,W"
         },
         {
@@ -3257,7 +3273,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 2,
+          "rank": 3,
           "form": "W,W"
         },
         {
@@ -3273,7 +3289,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 3,
+          "rank": 4,
           "form": "W,W"
         },
         {
@@ -3289,7 +3305,7 @@
           "ga": 0,
           "gd": 5,
           "pts": 6,
-          "rank": 4,
+          "rank": 5,
           "form": "W,W"
         },
         {
@@ -3305,7 +3321,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 6,
-          "rank": 5,
+          "rank": 6,
           "form": "W,W"
         },
         {
@@ -3321,7 +3337,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 6,
-          "rank": 6,
+          "rank": 7,
           "form": "W,W"
         },
         {
@@ -3337,7 +3353,7 @@
           "ga": 0,
           "gd": 3,
           "pts": 6,
-          "rank": 7,
+          "rank": 8,
           "form": "W,W"
         },
         {
@@ -3345,16 +3361,16 @@
           "flag": "🇨🇦",
           "code": "CAN",
           "shortName": "Canada",
-          "p": 2,
+          "p": 3,
           "w": 1,
           "d": 1,
-          "l": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
+          "l": 1,
+          "gf": 8,
+          "ga": 3,
+          "gd": 5,
           "pts": 4,
-          "rank": 8,
-          "form": "W,D"
+          "rank": 9,
+          "form": "L,W,D"
         },
         {
           "name": "Portugal",
@@ -3369,7 +3385,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 4,
-          "rank": 9,
+          "rank": 10,
           "form": "W,D"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 10,
+          "rank": 11,
           "form": "W,D"
         },
         {
@@ -3401,7 +3417,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 4,
-          "rank": 11,
+          "rank": 12,
           "form": "W,D"
         },
         {
@@ -3416,22 +3432,6 @@
           "gf": 4,
           "ga": 0,
           "gd": 4,
-          "pts": 4,
-          "rank": 12,
-          "form": "W,D"
-        },
-        {
-          "name": "Switzerland",
-          "flag": "🇨🇭",
-          "code": "SUI",
-          "shortName": "Switzerland",
-          "p": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
           "pts": 4,
           "rank": 13,
           "form": "W,D"
@@ -3517,6 +3517,22 @@
           "form": "D,W"
         },
         {
+          "name": "Bosnia-Herzegovina",
+          "flag": "🏳️",
+          "code": "BIH",
+          "shortName": "Bosnia-H.",
+          "p": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 5,
+          "ga": 6,
+          "gd": -1,
+          "pts": 4,
+          "rank": 19,
+          "form": "W,L,D"
+        },
+        {
           "name": "Sweden",
           "flag": "🇸🇪",
           "code": "SWE",
@@ -3529,7 +3545,7 @@
           "ga": 6,
           "gd": 0,
           "pts": 3,
-          "rank": 19,
+          "rank": 20,
           "form": "L,W"
         },
         {
@@ -3545,7 +3561,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 3,
-          "rank": 20,
+          "rank": 21,
           "form": "L,W"
         },
         {
@@ -3561,7 +3577,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 21,
+          "rank": 22,
           "form": "L,W"
         },
         {
@@ -3577,7 +3593,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 22,
+          "rank": 23,
           "form": "L,W"
         },
         {
@@ -3593,7 +3609,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 23,
+          "rank": 24,
           "form": "L,W"
         },
         {
@@ -3609,7 +3625,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 3,
-          "rank": 24,
+          "rank": 25,
           "form": "L,W"
         },
         {
@@ -3625,7 +3641,7 @@
           "ga": 4,
           "gd": -1,
           "pts": 3,
-          "rank": 25,
+          "rank": 26,
           "form": "W,L"
         },
         {
@@ -3641,7 +3657,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 26,
+          "rank": 27,
           "form": "W,L"
         },
         {
@@ -3657,7 +3673,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 27,
+          "rank": 28,
           "form": "W,L"
         },
         {
@@ -3673,7 +3689,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 2,
-          "rank": 28,
+          "rank": 29,
           "form": "D,D"
         },
         {
@@ -3689,7 +3705,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 29,
+          "rank": 30,
           "form": "D,D"
         },
         {
@@ -3705,7 +3721,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 30,
+          "rank": 31,
           "form": "D,D"
         },
         {
@@ -3721,7 +3737,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 2,
-          "rank": 31,
+          "rank": 32,
           "form": "D,D"
         },
         {
@@ -3737,7 +3753,7 @@
           "ga": 3,
           "gd": -1,
           "pts": 1,
-          "rank": 32,
+          "rank": 33,
           "form": "D,L"
         },
         {
@@ -3753,7 +3769,7 @@
           "ga": 2,
           "gd": -1,
           "pts": 1,
-          "rank": 33,
+          "rank": 34,
           "form": "L,D"
         },
         {
@@ -3769,7 +3785,7 @@
           "ga": 1,
           "gd": -1,
           "pts": 1,
-          "rank": 34,
+          "rank": 35,
           "form": "D,L"
         },
         {
@@ -3785,7 +3801,7 @@
           "ga": 5,
           "gd": -2,
           "pts": 1,
-          "rank": 35,
+          "rank": 36,
           "form": "L,D"
         },
         {
@@ -3801,24 +3817,8 @@
           "ga": 3,
           "gd": -2,
           "pts": 1,
-          "rank": 36,
-          "form": "D,L"
-        },
-        {
-          "name": "Bosnia-Herzegovina",
-          "flag": "🏳️",
-          "code": "BIH",
-          "shortName": "Bosnia-H.",
-          "p": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gf": 2,
-          "ga": 5,
-          "gd": -3,
-          "pts": 1,
           "rank": 37,
-          "form": "L,D"
+          "form": "D,L"
         },
         {
           "name": "Saudi Arabia",
@@ -3837,22 +3837,6 @@
           "form": "L,D"
         },
         {
-          "name": "Qatar",
-          "flag": "🇶🇦",
-          "code": "QAT",
-          "shortName": "Qatar",
-          "p": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "pts": 1,
-          "rank": 39,
-          "form": "L,D"
-        },
-        {
           "name": "Curaçao",
           "flag": "🇨🇼",
           "code": "CUW",
@@ -3865,8 +3849,24 @@
           "ga": 7,
           "gd": -6,
           "pts": 1,
-          "rank": 40,
+          "rank": 39,
           "form": "D,L"
+        },
+        {
+          "name": "Qatar",
+          "flag": "🇶🇦",
+          "code": "QAT",
+          "shortName": "Qatar",
+          "p": 3,
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "gf": 2,
+          "ga": 10,
+          "gd": -8,
+          "pts": 1,
+          "rank": 40,
+          "form": "L,L,D"
         },
         {
           "name": "Panama",
@@ -4037,6 +4037,15 @@
       "penalties": null
     },
     {
+      "name": "Johan Manzambi",
+      "flag": "🇨🇭",
+      "team": "Switzerland",
+      "teamShort": "Switzerland",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Jonathan David",
       "flag": "🇨🇦",
       "team": "Canada",
@@ -4154,34 +4163,25 @@
       "penalties": null
     },
     {
-      "name": "Johan Manzambi",
+      "name": "Ruben Vargas",
       "flag": "🇨🇭",
       "team": "Switzerland",
       "teamShort": "Switzerland",
       "goals": 2,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
-      "name": "Matheus Cunha",
-      "flag": "🇧🇷",
-      "team": "Brazil",
-      "teamShort": "Brazil",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "name": "Brian Brobbey",
-      "flag": "🇳🇱",
-      "team": "Netherlands",
-      "teamShort": "Netherlands",
+      "name": "Ermin Mahmic",
+      "flag": "🏳️",
+      "team": "Bosnia-Herzegovina",
+      "teamShort": "Bosnia-H.",
       "goals": 2,
       "assists": null,
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-24T19:41:33.398543+00:00",
+  "lastUpdate": "2026-06-24T21:20:06.999111+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
