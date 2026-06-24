@@ -448,7 +448,7 @@
       "awayFlag": "🇺🇾",
       "awayId": 758,
       "awayShort": "Uruguay",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "homeScore": 1,
       "awayScore": 1,
       "halfTimeHome": 1,
@@ -1187,7 +1187,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayFlag": "🏳️",
       "awayId": 1930,
@@ -1472,21 +1472,21 @@
       "awayId": 1934,
       "awayShort": "Congo DR",
       "awayTla": "COD",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "K",
       "matchday": 2,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537337,
@@ -1931,7 +1931,7 @@
       "homeFlag": "🇺🇾",
       "homeId": 758,
       "homeShort": "Uruguay",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayFlag": "🇪🇸",
       "awayId": 760,
@@ -3309,6 +3309,22 @@
           "form": "W,W"
         },
         {
+          "name": "Colombia",
+          "flag": "🇨🇴",
+          "code": "COL",
+          "shortName": "Colombia",
+          "p": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 6,
+          "rank": 6,
+          "form": "W,W"
+        },
+        {
           "name": "Mexico",
           "flag": "🇲🇽",
           "code": "MEX",
@@ -3321,7 +3337,7 @@
           "ga": 0,
           "gd": 3,
           "pts": 6,
-          "rank": 6,
+          "rank": 7,
           "form": "W,W"
         },
         {
@@ -3337,7 +3353,7 @@
           "ga": 1,
           "gd": 6,
           "pts": 4,
-          "rank": 7,
+          "rank": 8,
           "form": "W,D"
         },
         {
@@ -3353,7 +3369,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 4,
-          "rank": 8,
+          "rank": 9,
           "form": "W,D"
         },
         {
@@ -3369,7 +3385,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 9,
+          "rank": 10,
           "form": "W,D"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 4,
-          "rank": 10,
+          "rank": 11,
           "form": "W,D"
         },
         {
@@ -3401,7 +3417,7 @@
           "ga": 0,
           "gd": 4,
           "pts": 4,
-          "rank": 11,
+          "rank": 12,
           "form": "W,D"
         },
         {
@@ -3417,7 +3433,7 @@
           "ga": 2,
           "gd": 3,
           "pts": 4,
-          "rank": 12,
+          "rank": 13,
           "form": "W,D"
         },
         {
@@ -3433,7 +3449,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 4,
-          "rank": 13,
+          "rank": 14,
           "form": "W,D"
         },
         {
@@ -3449,7 +3465,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 14,
+          "rank": 15,
           "form": "W,D"
         },
         {
@@ -3465,7 +3481,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 15,
+          "rank": 16,
           "form": "D,W"
         },
         {
@@ -3481,7 +3497,7 @@
           "ga": 1,
           "gd": 1,
           "pts": 4,
-          "rank": 16,
+          "rank": 17,
           "form": "W,D"
         },
         {
@@ -3497,24 +3513,8 @@
           "ga": 0,
           "gd": 1,
           "pts": 4,
-          "rank": 17,
-          "form": "D,W"
-        },
-        {
-          "name": "Colombia",
-          "flag": "🇨🇴",
-          "code": "COL",
-          "shortName": "Colombia",
-          "p": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
-          "pts": 3,
           "rank": 18,
-          "form": "W"
+          "form": "D,W"
         },
         {
           "name": "Sweden",
@@ -3725,22 +3725,6 @@
           "form": "D,D"
         },
         {
-          "name": "Congo DR",
-          "flag": "🏳️",
-          "code": "COD",
-          "shortName": "Congo DR",
-          "p": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 1,
-          "rank": 32,
-          "form": "D"
-        },
-        {
           "name": "Czechia",
           "flag": "🏳️",
           "code": "CZE",
@@ -3753,8 +3737,24 @@
           "ga": 3,
           "gd": -1,
           "pts": 1,
-          "rank": 33,
+          "rank": 32,
           "form": "D,L"
+        },
+        {
+          "name": "Congo DR",
+          "flag": "🏳️",
+          "code": "COD",
+          "shortName": "Congo DR",
+          "p": 2,
+          "w": 0,
+          "d": 1,
+          "l": 1,
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
+          "pts": 1,
+          "rank": 33,
+          "form": "L,D"
         },
         {
           "name": "Ecuador",
@@ -4145,6 +4145,15 @@
       "penalties": 1
     },
     {
+      "name": "Daniel Muñoz",
+      "flag": "🇨🇴",
+      "team": "Colombia",
+      "teamShort": "Colombia",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Johan Manzambi",
       "flag": "🇨🇭",
       "team": "Switzerland",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Cody Gakpo",
-      "flag": "🇳🇱",
-      "team": "Netherlands",
-      "teamShort": "Netherlands",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-24T02:51:03.100281+00:00",
+  "lastUpdate": "2026-06-24T07:36:39.795579+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
