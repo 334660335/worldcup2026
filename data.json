@@ -1565,7 +1565,7 @@
       "awayId": 836,
       "awayShort": "Haiti",
       "awayTla": "HAI",
-      "homeScore": 2,
+      "homeScore": 4,
       "awayScore": 2,
       "halfTimeHome": 2,
       "halfTimeAway": 2,
@@ -1573,13 +1573,13 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "C",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537343,
@@ -1597,14 +1597,14 @@
       "awayShort": "Brazil",
       "awayTla": "BRA",
       "homeScore": 0,
-      "awayScore": 2,
+      "awayScore": 3,
       "halfTimeHome": 0,
       "halfTimeAway": 2,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "C",
       "matchday": 3,
@@ -1627,21 +1627,21 @@
       "awayId": 769,
       "awayShort": "Mexico",
       "awayTla": "MEX",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "A",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537332,
@@ -1658,21 +1658,21 @@
       "awayId": 772,
       "awayShort": "Korea Republic",
       "awayTla": "KOR",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "A",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537355,
@@ -3229,6 +3229,22 @@
     "n": {
       "teams": [
         {
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "code": "BRA",
+          "shortName": "Brazil",
+          "p": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "pts": 7,
+          "rank": 1,
+          "form": "W,W,D"
+        },
+        {
           "name": "Switzerland",
           "flag": "🇨🇭",
           "code": "SUI",
@@ -3241,7 +3257,23 @@
           "ga": 3,
           "gd": 4,
           "pts": 7,
-          "rank": 1,
+          "rank": 2,
+          "form": "W,W,D"
+        },
+        {
+          "name": "Morocco",
+          "flag": "🇲🇦",
+          "code": "MAR",
+          "shortName": "Morocco",
+          "p": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gf": 6,
+          "ga": 3,
+          "gd": 3,
+          "pts": 7,
+          "rank": 3,
           "form": "W,W,D"
         },
         {
@@ -3257,7 +3289,7 @@
           "ga": 2,
           "gd": 7,
           "pts": 6,
-          "rank": 2,
+          "rank": 4,
           "form": "W,W"
         },
         {
@@ -3273,7 +3305,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 3,
+          "rank": 5,
           "form": "W,W"
         },
         {
@@ -3289,7 +3321,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 4,
+          "rank": 6,
           "form": "W,W"
         },
         {
@@ -3305,7 +3337,7 @@
           "ga": 0,
           "gd": 5,
           "pts": 6,
-          "rank": 5,
+          "rank": 7,
           "form": "W,W"
         },
         {
@@ -3321,7 +3353,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 6,
-          "rank": 6,
+          "rank": 8,
           "form": "W,W"
         },
         {
@@ -3337,7 +3369,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 6,
-          "rank": 7,
+          "rank": 9,
           "form": "W,W"
         },
         {
@@ -3353,7 +3385,7 @@
           "ga": 0,
           "gd": 3,
           "pts": 6,
-          "rank": 8,
+          "rank": 10,
           "form": "W,W"
         },
         {
@@ -3369,7 +3401,7 @@
           "ga": 3,
           "gd": 5,
           "pts": 4,
-          "rank": 9,
+          "rank": 11,
           "form": "L,W,D"
         },
         {
@@ -3385,7 +3417,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 4,
-          "rank": 10,
+          "rank": 12,
           "form": "W,D"
         },
         {
@@ -3401,7 +3433,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 11,
+          "rank": 13,
           "form": "W,D"
         },
         {
@@ -3417,7 +3449,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 4,
-          "rank": 12,
+          "rank": 14,
           "form": "W,D"
         },
         {
@@ -3433,23 +3465,7 @@
           "ga": 0,
           "gd": 4,
           "pts": 4,
-          "rank": 13,
-          "form": "W,D"
-        },
-        {
-          "name": "Brazil",
-          "flag": "🇧🇷",
-          "code": "BRA",
-          "shortName": "Brazil",
-          "p": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 4,
-          "ga": 1,
-          "gd": 3,
-          "pts": 4,
-          "rank": 14,
+          "rank": 15,
           "form": "W,D"
         },
         {
@@ -3465,7 +3481,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 15,
+          "rank": 16,
           "form": "W,D"
         },
         {
@@ -3481,24 +3497,8 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 16,
-          "form": "D,W"
-        },
-        {
-          "name": "Morocco",
-          "flag": "🇲🇦",
-          "code": "MAR",
-          "shortName": "Morocco",
-          "p": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 2,
-          "ga": 1,
-          "gd": 1,
-          "pts": 4,
           "rank": 17,
-          "form": "W,D"
+          "form": "D,W"
         },
         {
           "name": "Ghana",
@@ -3613,22 +3613,6 @@
           "form": "L,W"
         },
         {
-          "name": "Scotland",
-          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-          "code": "SCO",
-          "shortName": "Scotland",
-          "p": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "pts": 3,
-          "rank": 25,
-          "form": "L,W"
-        },
-        {
           "name": "Croatia",
           "flag": "🇭🇷",
           "code": "CRO",
@@ -3641,7 +3625,7 @@
           "ga": 4,
           "gd": -1,
           "pts": 3,
-          "rank": 26,
+          "rank": 25,
           "form": "W,L"
         },
         {
@@ -3657,7 +3641,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 27,
+          "rank": 26,
           "form": "W,L"
         },
         {
@@ -3673,8 +3657,24 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 28,
+          "rank": 27,
           "form": "W,L"
+        },
+        {
+          "name": "Scotland",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "code": "SCO",
+          "shortName": "Scotland",
+          "p": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 3,
+          "rank": 28,
+          "form": "L,L,W"
         },
         {
           "name": "Uruguay",
@@ -3937,16 +3937,16 @@
           "flag": "🇭🇹",
           "code": "HAI",
           "shortName": "Haiti",
-          "p": 2,
+          "p": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gf": 0,
-          "ga": 4,
-          "gd": -4,
+          "l": 3,
+          "gf": 2,
+          "ga": 8,
+          "gd": -6,
           "pts": 0,
           "rank": 45,
-          "form": "L,L"
+          "form": "L,L,L"
         },
         {
           "name": "Iraq",
@@ -4073,6 +4073,24 @@
       "penalties": null
     },
     {
+      "name": "Matheus Cunha",
+      "flag": "🇧🇷",
+      "team": "Brazil",
+      "teamShort": "Brazil",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "name": "Julián Quiñones",
+      "flag": "🇲🇽",
+      "team": "Mexico",
+      "teamShort": "Mexico",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Cyle Larin",
       "flag": "🇨🇦",
       "team": "Canada",
@@ -4161,27 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Ruben Vargas",
-      "flag": "🇨🇭",
-      "team": "Switzerland",
-      "teamShort": "Switzerland",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "name": "Ermin Mahmic",
-      "flag": "🏳️",
-      "team": "Bosnia-Herzegovina",
-      "teamShort": "Bosnia-H.",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-24T23:01:38.761957+00:00",
+  "lastUpdate": "2026-06-25T02:50:35.776195+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
