@@ -1689,7 +1689,7 @@
       "awayId": 759,
       "awayShort": "Germany",
       "awayTla": "GER",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
       "halfTimeHome": 1,
       "halfTimeAway": 1,
@@ -1697,13 +1697,13 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "E",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537356,
@@ -1721,14 +1721,14 @@
       "awayShort": "Ivory Coast",
       "awayTla": "CIV",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 2,
       "halfTimeHome": 0,
       "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "E",
       "matchday": 3,
@@ -1751,21 +1751,21 @@
       "awayId": 8601,
       "awayShort": "Netherlands",
       "awayTla": "NED",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 2,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "F",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537362,
@@ -1782,21 +1782,21 @@
       "awayId": 792,
       "awayShort": "Sweden",
       "awayTla": "SWE",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "F",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537349,
@@ -3297,16 +3297,16 @@
           "flag": "🇩🇪",
           "code": "GER",
           "shortName": "Germany",
-          "p": 2,
+          "p": 3,
           "w": 2,
           "d": 0,
-          "l": 0,
-          "gf": 9,
-          "ga": 2,
-          "gd": 7,
+          "l": 1,
+          "gf": 10,
+          "ga": 4,
+          "gd": 6,
           "pts": 6,
           "rank": 5,
-          "form": "W,W"
+          "form": "L,W,W"
         },
         {
           "name": "United States",
@@ -3389,6 +3389,22 @@
           "form": "W,W"
         },
         {
+          "name": "Ivory Coast",
+          "flag": "🇨🇮",
+          "code": "CIV",
+          "shortName": "Ivory Coast",
+          "p": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "pts": 6,
+          "rank": 11,
+          "form": "W,L,W"
+        },
+        {
           "name": "Canada",
           "flag": "🇨🇦",
           "code": "CAN",
@@ -3401,7 +3417,7 @@
           "ga": 3,
           "gd": 5,
           "pts": 4,
-          "rank": 11,
+          "rank": 12,
           "form": "L,W,D"
         },
         {
@@ -3417,7 +3433,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 4,
-          "rank": 12,
+          "rank": 13,
           "form": "W,D"
         },
         {
@@ -3433,7 +3449,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 4,
-          "rank": 13,
+          "rank": 14,
           "form": "W,D"
         },
         {
@@ -3449,7 +3465,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 4,
-          "rank": 14,
+          "rank": 15,
           "form": "W,D"
         },
         {
@@ -3465,7 +3481,7 @@
           "ga": 0,
           "gd": 4,
           "pts": 4,
-          "rank": 15,
+          "rank": 16,
           "form": "W,D"
         },
         {
@@ -3481,7 +3497,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 16,
+          "rank": 17,
           "form": "W,D"
         },
         {
@@ -3497,7 +3513,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 4,
-          "rank": 17,
+          "rank": 18,
           "form": "D,W"
         },
         {
@@ -3513,8 +3529,24 @@
           "ga": 0,
           "gd": 1,
           "pts": 4,
-          "rank": 18,
+          "rank": 19,
           "form": "D,W"
+        },
+        {
+          "name": "Ecuador",
+          "flag": "🇪🇨",
+          "code": "ECU",
+          "shortName": "Ecuador",
+          "p": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 4,
+          "rank": 20,
+          "form": "W,D,L"
         },
         {
           "name": "Bosnia-Herzegovina",
@@ -3529,7 +3561,7 @@
           "ga": 6,
           "gd": -1,
           "pts": 4,
-          "rank": 19,
+          "rank": 21,
           "form": "W,L,D"
         },
         {
@@ -3545,7 +3577,7 @@
           "ga": 3,
           "gd": -1,
           "pts": 4,
-          "rank": 20,
+          "rank": 22,
           "form": "W,D,L"
         },
         {
@@ -3561,7 +3593,7 @@
           "ga": 6,
           "gd": 0,
           "pts": 3,
-          "rank": 21,
+          "rank": 23,
           "form": "L,W"
         },
         {
@@ -3577,7 +3609,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 3,
-          "rank": 22,
+          "rank": 24,
           "form": "L,W"
         },
         {
@@ -3593,23 +3625,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 3,
-          "rank": 23,
-          "form": "L,W"
-        },
-        {
-          "name": "Ivory Coast",
-          "flag": "🇨🇮",
-          "code": "CIV",
-          "shortName": "Ivory Coast",
-          "p": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 3,
-          "rank": 24,
+          "rank": 25,
           "form": "L,W"
         },
         {
@@ -3625,7 +3641,7 @@
           "ga": 4,
           "gd": -1,
           "pts": 3,
-          "rank": 25,
+          "rank": 26,
           "form": "W,L"
         },
         {
@@ -3641,7 +3657,7 @@
           "ga": 3,
           "gd": -1,
           "pts": 3,
-          "rank": 26,
+          "rank": 27,
           "form": "L,L,W"
         },
         {
@@ -3657,7 +3673,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 27,
+          "rank": 28,
           "form": "W,L"
         },
         {
@@ -3673,7 +3689,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 28,
+          "rank": 29,
           "form": "W,L"
         },
         {
@@ -3689,7 +3705,7 @@
           "ga": 4,
           "gd": -3,
           "pts": 3,
-          "rank": 29,
+          "rank": 30,
           "form": "L,L,W"
         },
         {
@@ -3705,7 +3721,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 2,
-          "rank": 30,
+          "rank": 31,
           "form": "D,D"
         },
         {
@@ -3721,7 +3737,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 31,
+          "rank": 32,
           "form": "D,D"
         },
         {
@@ -3737,7 +3753,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 32,
+          "rank": 33,
           "form": "D,D"
         },
         {
@@ -3753,7 +3769,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 2,
-          "rank": 33,
+          "rank": 34,
           "form": "D,D"
         },
         {
@@ -3769,24 +3785,8 @@
           "ga": 2,
           "gd": -1,
           "pts": 1,
-          "rank": 34,
-          "form": "L,D"
-        },
-        {
-          "name": "Ecuador",
-          "flag": "🇪🇨",
-          "code": "ECU",
-          "shortName": "Ecuador",
-          "p": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gf": 0,
-          "ga": 1,
-          "gd": -1,
-          "pts": 1,
           "rank": 35,
-          "form": "D,L"
+          "form": "L,D"
         },
         {
           "name": "New Zealand",
@@ -3837,22 +3837,6 @@
           "form": "L,D"
         },
         {
-          "name": "Curaçao",
-          "flag": "🇨🇼",
-          "code": "CUW",
-          "shortName": "Curaçao",
-          "p": 2,
-          "w": 0,
-          "d": 1,
-          "l": 1,
-          "gf": 1,
-          "ga": 7,
-          "gd": -6,
-          "pts": 1,
-          "rank": 39,
-          "form": "D,L"
-        },
-        {
           "name": "Qatar",
           "flag": "🇶🇦",
           "code": "QAT",
@@ -3865,8 +3849,24 @@
           "ga": 10,
           "gd": -8,
           "pts": 1,
-          "rank": 40,
+          "rank": 39,
           "form": "L,L,D"
+        },
+        {
+          "name": "Curaçao",
+          "flag": "🇨🇼",
+          "code": "CUW",
+          "shortName": "Curaçao",
+          "p": 3,
+          "w": 0,
+          "d": 1,
+          "l": 2,
+          "gf": 1,
+          "ga": 9,
+          "gd": -8,
+          "pts": 1,
+          "rank": 40,
+          "form": "L,D,L"
         },
         {
           "name": "Panama",
@@ -4082,6 +4082,15 @@
       "penalties": null
     },
     {
+      "name": "Brian Brobbey",
+      "flag": "🇳🇱",
+      "team": "Netherlands",
+      "teamShort": "Netherlands",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Julián Quiñones",
       "flag": "🇲🇽",
       "team": "Mexico",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": 1
-    },
-    {
-      "name": "Daniel Muñoz",
-      "flag": "🇨🇴",
-      "team": "Colombia",
-      "teamShort": "Colombia",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-25T21:28:10.695961+00:00",
+  "lastUpdate": "2026-06-25T23:14:18.309842+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
