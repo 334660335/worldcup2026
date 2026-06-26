@@ -1751,15 +1751,15 @@
       "awayId": 8601,
       "awayShort": "Netherlands",
       "awayTla": "NED",
-      "homeScore": 0,
-      "awayScore": 2,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 3,
+      "halfTimeHome": 0,
+      "halfTimeAway": 2,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "F",
       "matchday": 3,
@@ -1782,15 +1782,15 @@
       "awayId": 792,
       "awayShort": "Sweden",
       "awayTla": "SWE",
-      "homeScore": 0,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "F",
       "matchday": 3,
@@ -1813,21 +1813,21 @@
       "awayId": 771,
       "awayShort": "USA",
       "awayTla": "USA",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 1,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "D",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537350,
@@ -1844,21 +1844,21 @@
       "awayId": 779,
       "awayShort": "Australia",
       "awayTla": "AUS",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "D",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537395,
@@ -3245,6 +3245,22 @@
           "form": "W,W,W"
         },
         {
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "code": "NED",
+          "shortName": "Netherlands",
+          "p": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gf": 10,
+          "ga": 4,
+          "gd": 6,
+          "pts": 7,
+          "rank": 2,
+          "form": "W,W,D"
+        },
+        {
           "name": "Brazil",
           "flag": "🇧🇷",
           "code": "BRA",
@@ -3257,7 +3273,7 @@
           "ga": 1,
           "gd": 6,
           "pts": 7,
-          "rank": 2,
+          "rank": 3,
           "form": "W,W,D"
         },
         {
@@ -3273,7 +3289,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 7,
-          "rank": 3,
+          "rank": 4,
           "form": "W,W,D"
         },
         {
@@ -3289,7 +3305,7 @@
           "ga": 3,
           "gd": 3,
           "pts": 7,
-          "rank": 4,
+          "rank": 5,
           "form": "W,W,D"
         },
         {
@@ -3305,7 +3321,7 @@
           "ga": 4,
           "gd": 6,
           "pts": 6,
-          "rank": 5,
+          "rank": 6,
           "form": "L,W,W"
         },
         {
@@ -3321,7 +3337,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 6,
+          "rank": 7,
           "form": "W,W"
         },
         {
@@ -3337,7 +3353,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 7,
+          "rank": 8,
           "form": "W,W"
         },
         {
@@ -3353,7 +3369,7 @@
           "ga": 0,
           "gd": 5,
           "pts": 6,
-          "rank": 8,
+          "rank": 9,
           "form": "W,W"
         },
         {
@@ -3369,7 +3385,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 6,
-          "rank": 9,
+          "rank": 10,
           "form": "W,W"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 6,
-          "rank": 10,
+          "rank": 11,
           "form": "W,W"
         },
         {
@@ -3401,8 +3417,24 @@
           "ga": 2,
           "gd": 2,
           "pts": 6,
-          "rank": 11,
+          "rank": 12,
           "form": "W,L,W"
+        },
+        {
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "code": "JPN",
+          "shortName": "Japan",
+          "p": 3,
+          "w": 1,
+          "d": 2,
+          "l": 0,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "pts": 5,
+          "rank": 13,
+          "form": "D,W,D"
         },
         {
           "name": "Canada",
@@ -3417,7 +3449,7 @@
           "ga": 3,
           "gd": 5,
           "pts": 4,
-          "rank": 12,
+          "rank": 14,
           "form": "L,W,D"
         },
         {
@@ -3432,38 +3464,6 @@
           "gf": 6,
           "ga": 1,
           "gd": 5,
-          "pts": 4,
-          "rank": 13,
-          "form": "W,D"
-        },
-        {
-          "name": "Netherlands",
-          "flag": "🇳🇱",
-          "code": "NED",
-          "shortName": "Netherlands",
-          "p": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 7,
-          "ga": 3,
-          "gd": 4,
-          "pts": 4,
-          "rank": 14,
-          "form": "W,D"
-        },
-        {
-          "name": "Japan",
-          "flag": "🇯🇵",
-          "code": "JPN",
-          "shortName": "Japan",
-          "p": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 6,
-          "ga": 2,
-          "gd": 4,
           "pts": 4,
           "rank": 15,
           "form": "W,D"
@@ -3533,6 +3533,22 @@
           "form": "D,W"
         },
         {
+          "name": "Sweden",
+          "flag": "🇸🇪",
+          "code": "SWE",
+          "shortName": "Sweden",
+          "p": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 7,
+          "ga": 7,
+          "gd": 0,
+          "pts": 4,
+          "rank": 20,
+          "form": "D,L,W"
+        },
+        {
           "name": "Ecuador",
           "flag": "🇪🇨",
           "code": "ECU",
@@ -3545,7 +3561,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 4,
-          "rank": 20,
+          "rank": 21,
           "form": "W,D,L"
         },
         {
@@ -3561,7 +3577,7 @@
           "ga": 6,
           "gd": -1,
           "pts": 4,
-          "rank": 21,
+          "rank": 22,
           "form": "W,L,D"
         },
         {
@@ -3577,24 +3593,8 @@
           "ga": 3,
           "gd": -1,
           "pts": 4,
-          "rank": 22,
-          "form": "W,D,L"
-        },
-        {
-          "name": "Sweden",
-          "flag": "🇸🇪",
-          "code": "SWE",
-          "shortName": "Sweden",
-          "p": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gf": 6,
-          "ga": 6,
-          "gd": 0,
-          "pts": 3,
           "rank": 23,
-          "form": "L,W"
+          "form": "W,D,L"
         },
         {
           "name": "Austria",
@@ -3985,16 +3985,16 @@
           "flag": "🇹🇳",
           "code": "TUN",
           "shortName": "Tunisia",
-          "p": 2,
+          "p": 3,
           "w": 0,
           "d": 0,
-          "l": 2,
-          "gf": 1,
-          "ga": 9,
-          "gd": -8,
+          "l": 3,
+          "gf": 2,
+          "ga": 12,
+          "gd": -10,
           "pts": 0,
           "rank": 48,
-          "form": "L,L"
+          "form": "L,L,L"
         }
       ]
     }
@@ -4181,7 +4181,7 @@
       "penalties": 1
     }
   ],
-  "lastUpdate": "2026-06-25T23:14:18.309842+00:00",
+  "lastUpdate": "2026-06-26T02:55:42.512836+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
