@@ -1813,15 +1813,15 @@
       "awayId": 771,
       "awayShort": "USA",
       "awayTla": "USA",
-      "homeScore": 2,
-      "awayScore": 1,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "halfTimeHome": 2,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "D",
       "matchday": 3,
@@ -1846,13 +1846,13 @@
       "awayTla": "AUS",
       "homeScore": 0,
       "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "group",
       "group": "D",
       "matchday": 3,
@@ -2299,11 +2299,11 @@
       "date": "2026-06-29",
       "time": "20:30",
       "timestamp": 1782765000,
-      "home": "Germany",
-      "homeFlag": "🇩🇪",
-      "homeId": 759,
-      "homeShort": "Germany",
-      "homeTla": "GER",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2423,11 +2423,11 @@
       "date": "2026-07-01",
       "time": "01:00",
       "timestamp": 1782867600,
-      "home": "Mexico",
-      "homeFlag": "🇲🇽",
-      "homeId": 769,
-      "homeShort": "Mexico",
-      "homeTla": "MEX",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2516,11 +2516,11 @@
       "date": "2026-07-02",
       "time": "00:00",
       "timestamp": 1782950400,
-      "home": "United States",
-      "homeFlag": "🇺🇸",
-      "homeId": 771,
-      "homeShort": "USA",
-      "homeTla": "USA",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -2671,11 +2671,11 @@
       "date": "2026-07-03",
       "time": "22:00",
       "timestamp": 1783116000,
-      "home": "Argentina",
-      "homeFlag": "🇦🇷",
-      "homeId": 762,
-      "homeShort": "Argentina",
-      "homeTla": "ARG",
+      "home": null,
+      "homeFlag": "🏳️",
+      "homeId": null,
+      "homeShort": null,
+      "homeTla": null,
       "away": null,
       "awayFlag": "🏳️",
       "awayId": null,
@@ -3325,22 +3325,6 @@
           "form": "L,W,W"
         },
         {
-          "name": "United States",
-          "flag": "🇺🇸",
-          "code": "USA",
-          "shortName": "USA",
-          "p": 2,
-          "w": 2,
-          "d": 0,
-          "l": 0,
-          "gf": 6,
-          "ga": 1,
-          "gd": 5,
-          "pts": 6,
-          "rank": 7,
-          "form": "W,W"
-        },
-        {
           "name": "France",
           "flag": "🇫🇷",
           "code": "FRA",
@@ -3353,7 +3337,7 @@
           "ga": 1,
           "gd": 5,
           "pts": 6,
-          "rank": 8,
+          "rank": 7,
           "form": "W,W"
         },
         {
@@ -3369,8 +3353,24 @@
           "ga": 0,
           "gd": 5,
           "pts": 6,
-          "rank": 9,
+          "rank": 8,
           "form": "W,W"
+        },
+        {
+          "name": "United States",
+          "flag": "🇺🇸",
+          "code": "USA",
+          "shortName": "USA",
+          "p": 3,
+          "w": 2,
+          "d": 0,
+          "l": 1,
+          "gf": 8,
+          "ga": 4,
+          "gd": 4,
+          "pts": 6,
+          "rank": 9,
+          "form": "L,W,W"
         },
         {
           "name": "Norway",
@@ -3549,6 +3549,22 @@
           "form": "D,L,W"
         },
         {
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "code": "AUS",
+          "shortName": "Australia",
+          "p": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 4,
+          "rank": 21,
+          "form": "D,L,W"
+        },
+        {
           "name": "Ecuador",
           "flag": "🇪🇨",
           "code": "ECU",
@@ -3561,7 +3577,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 4,
-          "rank": 21,
+          "rank": 22,
           "form": "W,D,L"
         },
         {
@@ -3577,7 +3593,7 @@
           "ga": 6,
           "gd": -1,
           "pts": 4,
-          "rank": 22,
+          "rank": 23,
           "form": "W,L,D"
         },
         {
@@ -3593,8 +3609,24 @@
           "ga": 3,
           "gd": -1,
           "pts": 4,
-          "rank": 23,
+          "rank": 24,
           "form": "W,D,L"
+        },
+        {
+          "name": "Paraguay",
+          "flag": "🇵🇾",
+          "code": "PAR",
+          "shortName": "Paraguay",
+          "p": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 4,
+          "rank": 25,
+          "form": "D,W,L"
         },
         {
           "name": "Austria",
@@ -3609,23 +3641,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 3,
-          "rank": 24,
-          "form": "L,W"
-        },
-        {
-          "name": "Australia",
-          "flag": "🇦🇺",
-          "code": "AUS",
-          "shortName": "Australia",
-          "p": 2,
-          "w": 1,
-          "d": 0,
-          "l": 1,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 3,
-          "rank": 25,
+          "rank": 26,
           "form": "L,W"
         },
         {
@@ -3641,7 +3657,7 @@
           "ga": 4,
           "gd": -1,
           "pts": 3,
-          "rank": 26,
+          "rank": 27,
           "form": "W,L"
         },
         {
@@ -3657,24 +3673,24 @@
           "ga": 3,
           "gd": -1,
           "pts": 3,
-          "rank": 27,
+          "rank": 28,
           "form": "L,L,W"
         },
         {
-          "name": "Paraguay",
-          "flag": "🇵🇾",
-          "code": "PAR",
-          "shortName": "Paraguay",
-          "p": 2,
+          "name": "Turkey",
+          "flag": "🇹🇷",
+          "code": "TUR",
+          "shortName": "Turkey",
+          "p": 3,
           "w": 1,
           "d": 0,
-          "l": 1,
-          "gf": 2,
-          "ga": 4,
+          "l": 2,
+          "gf": 3,
+          "ga": 5,
           "gd": -2,
           "pts": 3,
-          "rank": 28,
-          "form": "W,L"
+          "rank": 29,
+          "form": "W,L,L"
         },
         {
           "name": "Algeria",
@@ -3689,7 +3705,7 @@
           "ga": 4,
           "gd": -2,
           "pts": 3,
-          "rank": 29,
+          "rank": 30,
           "form": "W,L"
         },
         {
@@ -3705,7 +3721,7 @@
           "ga": 4,
           "gd": -3,
           "pts": 3,
-          "rank": 30,
+          "rank": 31,
           "form": "L,L,W"
         },
         {
@@ -3721,7 +3737,7 @@
           "ga": 3,
           "gd": 0,
           "pts": 2,
-          "rank": 31,
+          "rank": 32,
           "form": "D,D"
         },
         {
@@ -3737,7 +3753,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 32,
+          "rank": 33,
           "form": "D,D"
         },
         {
@@ -3753,7 +3769,7 @@
           "ga": 2,
           "gd": 0,
           "pts": 2,
-          "rank": 33,
+          "rank": 34,
           "form": "D,D"
         },
         {
@@ -3769,7 +3785,7 @@
           "ga": 1,
           "gd": 0,
           "pts": 2,
-          "rank": 34,
+          "rank": 35,
           "form": "D,D"
         },
         {
@@ -3785,7 +3801,7 @@
           "ga": 2,
           "gd": -1,
           "pts": 1,
-          "rank": 35,
+          "rank": 36,
           "form": "L,D"
         },
         {
@@ -3801,7 +3817,7 @@
           "ga": 5,
           "gd": -2,
           "pts": 1,
-          "rank": 36,
+          "rank": 37,
           "form": "L,D"
         },
         {
@@ -3817,7 +3833,7 @@
           "ga": 6,
           "gd": -4,
           "pts": 1,
-          "rank": 37,
+          "rank": 38,
           "form": "L,D,L"
         },
         {
@@ -3833,7 +3849,7 @@
           "ga": 5,
           "gd": -4,
           "pts": 1,
-          "rank": 38,
+          "rank": 39,
           "form": "L,D"
         },
         {
@@ -3849,7 +3865,7 @@
           "ga": 10,
           "gd": -8,
           "pts": 1,
-          "rank": 39,
+          "rank": 40,
           "form": "L,L,D"
         },
         {
@@ -3865,7 +3881,7 @@
           "ga": 9,
           "gd": -8,
           "pts": 1,
-          "rank": 40,
+          "rank": 41,
           "form": "L,D,L"
         },
         {
@@ -3881,7 +3897,7 @@
           "ga": 2,
           "gd": -2,
           "pts": 0,
-          "rank": 41,
+          "rank": 42,
           "form": "L,L"
         },
         {
@@ -3897,7 +3913,7 @@
           "ga": 6,
           "gd": -3,
           "pts": 0,
-          "rank": 42,
+          "rank": 43,
           "form": "L,L"
         },
         {
@@ -3911,22 +3927,6 @@
           "l": 2,
           "gf": 2,
           "ga": 5,
-          "gd": -3,
-          "pts": 0,
-          "rank": 43,
-          "form": "L,L"
-        },
-        {
-          "name": "Turkey",
-          "flag": "🇹🇷",
-          "code": "TUR",
-          "shortName": "Turkey",
-          "p": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gf": 0,
-          "ga": 3,
           "gd": -3,
           "pts": 0,
           "rank": 44,
@@ -4181,7 +4181,7 @@
       "penalties": 1
     }
   ],
-  "lastUpdate": "2026-06-26T02:55:42.512836+00:00",
+  "lastUpdate": "2026-06-26T07:47:15.150006+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
