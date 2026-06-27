@@ -2061,21 +2061,21 @@
       "awayId": 770,
       "awayShort": "England",
       "awayTla": "ENG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "L",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537414,
@@ -2092,21 +2092,21 @@
       "awayId": 763,
       "awayShort": "Ghana",
       "awayTla": "GHA",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "group",
       "group": "L",
       "matchday": 3,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537407,
@@ -3325,6 +3325,22 @@
           "form": "W,W,D"
         },
         {
+          "name": "England",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "code": "ENG",
+          "shortName": "England",
+          "p": 3,
+          "w": 2,
+          "d": 1,
+          "l": 0,
+          "gf": 6,
+          "ga": 2,
+          "gd": 4,
+          "pts": 7,
+          "rank": 7,
+          "form": "W,D,W"
+        },
+        {
           "name": "Morocco",
           "flag": "🇲🇦",
           "code": "MAR",
@@ -3337,7 +3353,7 @@
           "ga": 3,
           "gd": 3,
           "pts": 7,
-          "rank": 7,
+          "rank": 8,
           "form": "W,W,D"
         },
         {
@@ -3353,7 +3369,7 @@
           "ga": 4,
           "gd": 6,
           "pts": 6,
-          "rank": 8,
+          "rank": 9,
           "form": "L,W,W"
         },
         {
@@ -3369,7 +3385,7 @@
           "ga": 0,
           "gd": 5,
           "pts": 6,
-          "rank": 9,
+          "rank": 10,
           "form": "W,W"
         },
         {
@@ -3385,7 +3401,7 @@
           "ga": 4,
           "gd": 4,
           "pts": 6,
-          "rank": 10,
+          "rank": 11,
           "form": "L,W,W"
         },
         {
@@ -3401,7 +3417,7 @@
           "ga": 1,
           "gd": 3,
           "pts": 6,
-          "rank": 11,
+          "rank": 12,
           "form": "W,W"
         },
         {
@@ -3417,7 +3433,7 @@
           "ga": 2,
           "gd": 2,
           "pts": 6,
-          "rank": 12,
+          "rank": 13,
           "form": "W,L,W"
         },
         {
@@ -3433,7 +3449,7 @@
           "ga": 7,
           "gd": 1,
           "pts": 6,
-          "rank": 13,
+          "rank": 14,
           "form": "L,W,W"
         },
         {
@@ -3449,7 +3465,7 @@
           "ga": 3,
           "gd": 4,
           "pts": 5,
-          "rank": 14,
+          "rank": 15,
           "form": "D,W,D"
         },
         {
@@ -3465,7 +3481,7 @@
           "ga": 2,
           "gd": 4,
           "pts": 5,
-          "rank": 15,
+          "rank": 16,
           "form": "W,D,D"
         },
         {
@@ -3481,7 +3497,7 @@
           "ga": 3,
           "gd": 2,
           "pts": 5,
-          "rank": 16,
+          "rank": 17,
           "form": "D,W,D"
         },
         {
@@ -3497,7 +3513,7 @@
           "ga": 3,
           "gd": 5,
           "pts": 4,
-          "rank": 17,
+          "rank": 18,
           "form": "L,W,D"
         },
         {
@@ -3513,24 +3529,8 @@
           "ga": 1,
           "gd": 5,
           "pts": 4,
-          "rank": 18,
-          "form": "W,D"
-        },
-        {
-          "name": "England",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "code": "ENG",
-          "shortName": "England",
-          "p": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 4,
-          "ga": 2,
-          "gd": 2,
-          "pts": 4,
           "rank": 19,
-          "form": "D,W"
+          "form": "W,D"
         },
         {
           "name": "Ghana",
@@ -3901,22 +3901,6 @@
           "form": "L,D,L"
         },
         {
-          "name": "Panama",
-          "flag": "🇵🇦",
-          "code": "PAN",
-          "shortName": "Panama",
-          "p": 2,
-          "w": 0,
-          "d": 0,
-          "l": 2,
-          "gf": 0,
-          "ga": 2,
-          "gd": -2,
-          "pts": 0,
-          "rank": 43,
-          "form": "L,L"
-        },
-        {
           "name": "Jordan",
           "flag": "🇯🇴",
           "code": "JOR",
@@ -3929,8 +3913,24 @@
           "ga": 5,
           "gd": -3,
           "pts": 0,
-          "rank": 44,
+          "rank": 43,
           "form": "L,L"
+        },
+        {
+          "name": "Panama",
+          "flag": "🇵🇦",
+          "code": "PAN",
+          "shortName": "Panama",
+          "p": 3,
+          "w": 0,
+          "d": 0,
+          "l": 3,
+          "gf": 0,
+          "ga": 4,
+          "gd": -4,
+          "pts": 0,
+          "rank": 44,
+          "form": "L,L,L"
         },
         {
           "name": "Haiti",
@@ -4073,6 +4073,15 @@
       "penalties": null
     },
     {
+      "name": "Harry Kane",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "team": "England",
+      "teamShort": "England",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
+    },
+    {
       "name": "Johan Manzambi",
       "flag": "🇨🇭",
       "team": "Switzerland",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Yasin Ayari",
-      "flag": "🇸🇪",
-      "team": "Sweden",
-      "teamShort": "Sweden",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-27T20:57:48.174595+00:00",
+  "lastUpdate": "2026-06-27T22:59:22.185511+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
