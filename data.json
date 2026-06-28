@@ -2247,21 +2247,21 @@
       "awayId": 828,
       "awayShort": "Canada",
       "awayTla": "CAN",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537423,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-28T17:04:59.786612+00:00",
+  "lastUpdate": "2026-06-28T19:12:54.592685+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
