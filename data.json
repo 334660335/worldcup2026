@@ -2248,9 +2248,9 @@
       "awayShort": "Canada",
       "awayTla": "CAN",
       "homeScore": 0,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
@@ -2261,7 +2261,7 @@
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537423,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-28T19:12:54.592685+00:00",
+  "lastUpdate": "2026-06-28T20:57:34.766614+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
