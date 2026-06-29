@@ -2278,7 +2278,7 @@
       "awayId": 766,
       "awayShort": "Japan",
       "awayTla": "JPN",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
       "halfTimeHome": 0,
       "halfTimeAway": 1,
@@ -2286,13 +2286,13 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537415,
@@ -2309,21 +2309,21 @@
       "awayId": 761,
       "awayShort": "Paraguay",
       "awayTla": "PAR",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 1,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537418,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-29T18:06:13.331549+00:00",
+  "lastUpdate": "2026-06-29T21:22:13.276944+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
