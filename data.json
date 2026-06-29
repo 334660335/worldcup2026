@@ -2309,12 +2309,12 @@
       "awayId": 761,
       "awayShort": "Paraguay",
       "awayTla": "PAR",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
-      "extraTimeHome": null,
-      "extraTimeAway": null,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
+      "extraTimeHome": 1,
+      "extraTimeAway": 0,
       "penaltiesHome": null,
       "penaltiesAway": null,
       "status": "live",
@@ -2323,7 +2323,7 @@
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537418,
@@ -4055,6 +4055,15 @@
       "penalties": null
     },
     {
+      "name": "Kai Havertz",
+      "flag": "🇩🇪",
+      "team": "Germany",
+      "teamShort": "Germany",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
+    },
+    {
       "name": "Deniz Undav",
       "flag": "🇩🇪",
       "team": "Germany",
@@ -4163,15 +4172,6 @@
       "penalties": null
     },
     {
-      "name": "Kai Havertz",
-      "flag": "🇩🇪",
-      "team": "Germany",
-      "teamShort": "Germany",
-      "goals": 2,
-      "assists": null,
-      "penalties": 1
-    },
-    {
       "name": "Crysencio Summerville",
       "flag": "🇳🇱",
       "team": "Netherlands",
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-29T21:22:13.276944+00:00",
+  "lastUpdate": "2026-06-29T22:52:56.990076+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
