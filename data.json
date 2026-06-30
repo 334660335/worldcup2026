@@ -2309,21 +2309,21 @@
       "awayId": 761,
       "awayShort": "Paraguay",
       "awayTla": "PAR",
-      "homeScore": 2,
-      "awayScore": 1,
+      "homeScore": 4,
+      "awayScore": 5,
       "halfTimeHome": 0,
       "halfTimeAway": 1,
-      "extraTimeHome": 1,
+      "extraTimeHome": 0,
       "extraTimeAway": 0,
-      "penaltiesHome": null,
-      "penaltiesAway": null,
-      "status": "live",
+      "penaltiesHome": 4,
+      "penaltiesAway": 4,
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "HOME_TEAM"
+      "winner": null
     },
     {
       "id": 537418,
@@ -2340,21 +2340,21 @@
       "awayId": 815,
       "awayShort": "Morocco",
       "awayTla": "MAR",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537424,
@@ -4136,6 +4136,15 @@
       "penalties": null
     },
     {
+      "name": "Cody Gakpo",
+      "flag": "🇳🇱",
+      "team": "Netherlands",
+      "teamShort": "Netherlands",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Ismaïla Sarr",
       "flag": "🇸🇳",
       "team": "Senegal",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Crysencio Summerville",
-      "flag": "🇳🇱",
-      "team": "Netherlands",
-      "teamShort": "Netherlands",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-29T22:52:56.990076+00:00",
+  "lastUpdate": "2026-06-30T02:55:12.198347+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
