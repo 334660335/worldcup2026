@@ -2402,21 +2402,21 @@
       "awayId": 792,
       "awayShort": "Sweden",
       "awayTla": "SWE",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537425,
@@ -4001,6 +4001,15 @@
   },
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "flag": "🇫🇷",
+      "team": "France",
+      "teamShort": "France",
+      "goals": 6,
+      "assists": 2,
+      "penalties": null
+    },
+    {
       "name": "Lionel Messi",
       "flag": "🇦🇷",
       "team": "Argentina",
@@ -4028,21 +4037,12 @@
       "penalties": null
     },
     {
-      "name": "Kylian Mbappé",
-      "flag": "🇫🇷",
-      "team": "France",
-      "teamShort": "France",
-      "goals": 4,
-      "assists": 2,
-      "penalties": null
-    },
-    {
       "name": "Ousmane Dembélé",
       "flag": "🇫🇷",
       "team": "France",
       "teamShort": "France",
       "goals": 4,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-30T21:25:13.152571+00:00",
+  "lastUpdate": "2026-06-30T23:07:21.860705+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
