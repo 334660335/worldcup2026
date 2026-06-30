@@ -2371,15 +2371,15 @@
       "awayId": 8872,
       "awayShort": "Norway",
       "awayTla": "NOR",
-      "homeScore": 0,
-      "awayScore": 1,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
@@ -4010,6 +4010,15 @@
       "penalties": null
     },
     {
+      "name": "Erling Haaland",
+      "flag": "🇳🇴",
+      "team": "Norway",
+      "teamShort": "Norway",
+      "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Vinicius Junior",
       "flag": "🇧🇷",
       "team": "Brazil",
@@ -4025,15 +4034,6 @@
       "teamShort": "France",
       "goals": 4,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "name": "Erling Haaland",
-      "flag": "🇳🇴",
-      "team": "Norway",
-      "teamShort": "Norway",
-      "goals": 4,
-      "assists": null,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-30T17:49:30.070785+00:00",
+  "lastUpdate": "2026-06-30T19:49:30.224222+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
