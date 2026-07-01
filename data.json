@@ -2433,21 +2433,21 @@
       "awayId": 791,
       "awayShort": "Ecuador",
       "awayTla": "ECU",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "halfTimeHome": 2,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537426,
@@ -4046,6 +4046,15 @@
       "penalties": null
     },
     {
+      "name": "Julián Quiñones",
+      "flag": "🇲🇽",
+      "team": "Mexico",
+      "teamShort": "Mexico",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Ismael Saibari",
       "flag": "🇲🇦",
       "team": "Morocco",
@@ -4154,7 +4163,7 @@
       "penalties": null
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Raúl Jiménez",
       "flag": "🇲🇽",
       "team": "Mexico",
       "teamShort": "Mexico",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Folarin Balogun",
-      "flag": "🇺🇸",
-      "team": "United States",
-      "teamShort": "USA",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-06-30T23:07:21.860705+00:00",
+  "lastUpdate": "2026-07-01T03:25:09.161767+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
