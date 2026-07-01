@@ -2495,21 +2495,21 @@
       "awayId": 804,
       "awayShort": "Senegal",
       "awayTla": "SEN",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537421,
@@ -4055,6 +4055,15 @@
       "penalties": null
     },
     {
+      "name": "Ismaïla Sarr",
+      "flag": "🇸🇳",
+      "team": "Senegal",
+      "teamShort": "Senegal",
+      "goals": 4,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Julián Quiñones",
       "flag": "🇲🇽",
       "team": "Mexico",
@@ -4154,15 +4163,6 @@
       "penalties": null
     },
     {
-      "name": "Ismaïla Sarr",
-      "flag": "🇸🇳",
-      "team": "Senegal",
-      "teamShort": "Senegal",
-      "goals": 3,
-      "assists": 1,
-      "penalties": null
-    },
-    {
       "name": "Raúl Jiménez",
       "flag": "🇲🇽",
       "team": "Mexico",
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-01T19:48:12.038420+00:00",
+  "lastUpdate": "2026-07-01T21:24:14.794840+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
