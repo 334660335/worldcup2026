@@ -2495,21 +2495,21 @@
       "awayId": 804,
       "awayShort": "Senegal",
       "awayTla": "SEN",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 2,
       "halfTimeHome": 0,
       "halfTimeAway": 1,
-      "extraTimeHome": null,
-      "extraTimeAway": null,
+      "extraTimeHome": 1,
+      "extraTimeAway": 0,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537421,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-01T21:24:14.794840+00:00",
+  "lastUpdate": "2026-07-01T23:10:11.831895+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
