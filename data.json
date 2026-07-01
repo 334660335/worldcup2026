@@ -2464,21 +2464,21 @@
       "awayId": 1934,
       "awayShort": "Congo DR",
       "awayTla": "COD",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "AWAY_TEAM"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537422,
@@ -4028,6 +4028,15 @@
       "penalties": null
     },
     {
+      "name": "Harry Kane",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "team": "England",
+      "teamShort": "England",
+      "goals": 5,
+      "assists": null,
+      "penalties": 1
+    },
+    {
       "name": "Vinicius Junior",
       "flag": "🇧🇷",
       "team": "Brazil",
@@ -4095,15 +4104,6 @@
       "flag": "🏳️",
       "team": "Congo DR",
       "teamShort": "Congo DR",
-      "goals": 3,
-      "assists": null,
-      "penalties": 1
-    },
-    {
-      "name": "Harry Kane",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "team": "England",
-      "teamShort": "England",
       "goals": 3,
       "assists": null,
       "penalties": 1
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-01T16:23:15.636794+00:00",
+  "lastUpdate": "2026-07-01T19:48:12.038420+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
