@@ -2464,21 +2464,21 @@
       "awayId": 1934,
       "awayShort": "Congo DR",
       "awayTla": "COD",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 1,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537422,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-01T12:31:18.452758+00:00",
+  "lastUpdate": "2026-07-01T16:23:15.636794+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
