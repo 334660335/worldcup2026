@@ -2526,21 +2526,21 @@
       "awayId": 1060,
       "awayShort": "Bosnia-H.",
       "awayTla": "BIH",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537420,
@@ -4073,6 +4073,15 @@
       "penalties": null
     },
     {
+      "name": "Folarin Balogun",
+      "flag": "🇺🇸",
+      "team": "United States",
+      "teamShort": "USA",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Ismael Saibari",
       "flag": "🇲🇦",
       "team": "Morocco",
@@ -4170,18 +4179,9 @@
       "goals": 2,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Cyle Larin",
-      "flag": "🇨🇦",
-      "team": "Canada",
-      "teamShort": "Canada",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-01T23:10:11.831895+00:00",
+  "lastUpdate": "2026-07-02T02:51:13.054481+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
