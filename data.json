@@ -2588,21 +2588,21 @@
       "awayId": 799,
       "awayShort": "Croatia",
       "awayTla": "CRO",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537429,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-02T23:00:44.700492+00:00",
+  "lastUpdate": "2026-07-03T02:34:25.594859+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
