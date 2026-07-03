@@ -2681,21 +2681,21 @@
       "awayId": 1930,
       "awayShort": "Cape Verde",
       "awayTla": "CPV",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537430,
@@ -4001,21 +4001,21 @@
   },
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "flag": "🇦🇷",
+      "team": "Argentina",
+      "teamShort": "Argentina",
+      "goals": 7,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "name": "Kylian Mbappé",
       "flag": "🇫🇷",
       "team": "France",
       "teamShort": "France",
       "goals": 6,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "name": "Lionel Messi",
-      "flag": "🇦🇷",
-      "team": "Argentina",
-      "teamShort": "Argentina",
-      "goals": 6,
-      "assists": null,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-03T21:00:14.696898+00:00",
+  "lastUpdate": "2026-07-03T22:58:11.775674+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
