@@ -2619,21 +2619,21 @@
       "awayId": 778,
       "awayShort": "Algeria",
       "awayTla": "ALG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537428,
@@ -4141,7 +4141,7 @@
       "team": "Switzerland",
       "teamShort": "Switzerland",
       "goals": 3,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-03T02:34:25.594859+00:00",
+  "lastUpdate": "2026-07-03T06:58:23.928257+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
