@@ -2650,21 +2650,21 @@
       "awayId": 825,
       "awayShort": "Egypt",
       "awayTla": "EGY",
-      "homeScore": 0,
-      "awayScore": 1,
+      "homeScore": 3,
+      "awayScore": 5,
       "halfTimeHome": 0,
       "halfTimeAway": 1,
-      "extraTimeHome": null,
-      "extraTimeAway": null,
-      "penaltiesHome": null,
-      "penaltiesAway": null,
-      "status": "live",
+      "extraTimeHome": 0,
+      "extraTimeAway": 0,
+      "penaltiesHome": 4,
+      "penaltiesAway": 4,
+      "status": "finished",
       "stage": "r32",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "AWAY_TEAM"
+      "winner": null
     },
     {
       "id": 537427,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-03T19:13:47.315419+00:00",
+  "lastUpdate": "2026-07-03T21:00:14.696898+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
