@@ -2774,21 +2774,21 @@
       "awayId": 773,
       "awayShort": "France",
       "awayTla": "FRA",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537377,
@@ -4001,21 +4001,21 @@
   },
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "flag": "🇫🇷",
+      "team": "France",
+      "teamShort": "France",
+      "goals": 7,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
       "name": "Lionel Messi",
       "flag": "🇦🇷",
       "team": "Argentina",
       "teamShort": "Argentina",
       "goals": 7,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "name": "Kylian Mbappé",
-      "flag": "🇫🇷",
-      "team": "France",
-      "teamShort": "France",
-      "goals": 6,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-04T20:52:23.212586+00:00",
+  "lastUpdate": "2026-07-04T22:55:11.606678+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
