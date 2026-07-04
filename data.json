@@ -2743,21 +2743,21 @@
       "awayId": 815,
       "awayShort": "Morocco",
       "awayTla": "MAR",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537375,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-04T17:00:14.374825+00:00",
+  "lastUpdate": "2026-07-04T19:04:36.332792+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
