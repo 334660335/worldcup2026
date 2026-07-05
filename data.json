@@ -2805,21 +2805,21 @@
       "awayId": 8872,
       "awayShort": "Norway",
       "awayTla": "NOR",
-      "homeScore": 0,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537378,
@@ -4010,20 +4010,20 @@
       "penalties": 1
     },
     {
-      "name": "Lionel Messi",
-      "flag": "🇦🇷",
-      "team": "Argentina",
-      "teamShort": "Argentina",
+      "name": "Erling Haaland",
+      "flag": "🇳🇴",
+      "team": "Norway",
+      "teamShort": "Norway",
       "goals": 7,
       "assists": null,
       "penalties": null
     },
     {
-      "name": "Erling Haaland",
-      "flag": "🇳🇴",
-      "team": "Norway",
-      "teamShort": "Norway",
-      "goals": 5,
+      "name": "Lionel Messi",
+      "flag": "🇦🇷",
+      "team": "Argentina",
+      "teamShort": "Argentina",
+      "goals": 7,
       "assists": null,
       "penalties": null
     },
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-05T20:54:27.605424+00:00",
+  "lastUpdate": "2026-07-05T22:58:33.590435+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
