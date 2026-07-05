@@ -2805,21 +2805,21 @@
       "awayId": 8872,
       "awayShort": "Norway",
       "awayTla": "NOR",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537378,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-05T19:10:56.173039+00:00",
+  "lastUpdate": "2026-07-05T20:54:27.605424+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
