@@ -2782,7 +2782,7 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r16",
       "group": "",
       "matchday": null,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-04T22:55:11.606678+00:00",
+  "lastUpdate": "2026-07-05T02:41:31.995258+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
