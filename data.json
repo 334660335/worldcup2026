@@ -2868,20 +2868,20 @@
       "awayShort": "Spain",
       "awayTla": "ESP",
       "homeScore": 0,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "awayScore": 1,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537380,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-06T19:50:28.946557+00:00",
+  "lastUpdate": "2026-07-06T21:25:30.595512+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
