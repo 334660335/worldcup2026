@@ -2824,8 +2824,8 @@
     {
       "id": 537378,
       "date": "2026-07-06",
-      "time": "00:00",
-      "timestamp": 1783296000,
+      "time": "01:00",
+      "timestamp": 1783299600,
       "home": "Mexico",
       "homeFlag": "🇲🇽",
       "homeId": 769,
@@ -2836,21 +2836,21 @@
       "awayId": 770,
       "awayShort": "England",
       "awayTla": "ENG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 3,
+      "halfTimeHome": 1,
+      "halfTimeAway": 2,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537379,
@@ -4032,15 +4032,33 @@
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "team": "England",
       "teamShort": "England",
-      "goals": 5,
-      "assists": null,
-      "penalties": 1
+      "goals": 6,
+      "assists": 1,
+      "penalties": 2
+    },
+    {
+      "name": "Julián Quiñones",
+      "flag": "🇲🇽",
+      "team": "Mexico",
+      "teamShort": "Mexico",
+      "goals": 4,
+      "assists": 1,
+      "penalties": null
     },
     {
       "name": "Vinicius Junior",
       "flag": "🇧🇷",
       "team": "Brazil",
       "teamShort": "Brazil",
+      "goals": 4,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "name": "Jude Bellingham",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "team": "England",
+      "teamShort": "England",
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -4073,13 +4091,13 @@
       "penalties": null
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Raúl Jiménez",
       "flag": "🇲🇽",
       "team": "Mexico",
       "teamShort": "Mexico",
       "goals": 3,
-      "assists": 1,
-      "penalties": null
+      "assists": null,
+      "penalties": 1
     },
     {
       "name": "Folarin Balogun",
@@ -4161,27 +4179,9 @@
       "goals": 3,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Brian Brobbey",
-      "flag": "🇳🇱",
-      "team": "Netherlands",
-      "teamShort": "Netherlands",
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "name": "Cody Gakpo",
-      "flag": "🇳🇱",
-      "team": "Netherlands",
-      "teamShort": "Netherlands",
-      "goals": 3,
-      "assists": 1,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-05T22:58:33.590435+00:00",
+  "lastUpdate": "2026-07-06T02:46:43.113848+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
