@@ -2960,21 +2960,21 @@
       "awayId": 818,
       "awayShort": "Colombia",
       "awayTla": "COL",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537383,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-07T19:51:30.050798+00:00",
+  "lastUpdate": "2026-07-07T21:20:12.757508+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
