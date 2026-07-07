@@ -2929,21 +2929,21 @@
       "awayId": 825,
       "awayShort": "Egypt",
       "awayTla": "EGY",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "r16",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537382,
@@ -4001,6 +4001,15 @@
   },
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "flag": "🇦🇷",
+      "team": "Argentina",
+      "teamShort": "Argentina",
+      "goals": 8,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Kylian Mbappé",
       "flag": "🇫🇷",
       "team": "France",
@@ -4014,15 +4023,6 @@
       "flag": "🇳🇴",
       "team": "Norway",
       "teamShort": "Norway",
-      "goals": 7,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "name": "Lionel Messi",
-      "flag": "🇦🇷",
-      "team": "Argentina",
-      "teamShort": "Argentina",
       "goals": 7,
       "assists": null,
       "penalties": null
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-07T14:22:51.509883+00:00",
+  "lastUpdate": "2026-07-07T17:55:48.128229+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
