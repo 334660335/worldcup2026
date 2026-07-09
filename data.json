@@ -2991,7 +2991,7 @@
       "awayId": 815,
       "awayShort": "Morocco",
       "awayTla": "MAR",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
       "halfTimeHome": 0,
       "halfTimeAway": 0,
@@ -2999,13 +2999,13 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "qf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537384,
@@ -4001,6 +4001,15 @@
   },
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "flag": "🇫🇷",
+      "team": "France",
+      "teamShort": "France",
+      "goals": 8,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
       "name": "Lionel Messi",
       "flag": "🇦🇷",
       "team": "Argentina",
@@ -4008,15 +4017,6 @@
       "goals": 8,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "name": "Kylian Mbappé",
-      "flag": "🇫🇷",
-      "team": "France",
-      "teamShort": "France",
-      "goals": 7,
-      "assists": 2,
-      "penalties": 1
     },
     {
       "name": "Erling Haaland",
@@ -4035,6 +4035,15 @@
       "goals": 6,
       "assists": 1,
       "penalties": 2
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "flag": "🇫🇷",
+      "team": "France",
+      "teamShort": "France",
+      "goals": 5,
+      "assists": 2,
+      "penalties": null
     },
     {
       "name": "Julián Quiñones",
@@ -4070,15 +4079,6 @@
       "teamShort": "Spain",
       "goals": 4,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "flag": "🇫🇷",
-      "team": "France",
-      "teamShort": "France",
-      "goals": 4,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-09T21:19:13.781402+00:00",
+  "lastUpdate": "2026-07-09T23:07:55.672534+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
