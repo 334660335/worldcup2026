@@ -3022,21 +3022,21 @@
       "awayId": 805,
       "awayShort": "Belgium",
       "awayTla": "BEL",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "qf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537385,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-10T17:44:30.445180+00:00",
+  "lastUpdate": "2026-07-10T19:21:42.850124+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
