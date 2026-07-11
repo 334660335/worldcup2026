@@ -2844,7 +2844,7 @@
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "finished",
+      "status": "upcoming",
       "stage": "r16",
       "group": "",
       "matchday": null,
@@ -3053,21 +3053,21 @@
       "awayId": 770,
       "awayShort": "England",
       "awayTla": "ENG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTimeHome": 1,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "qf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537386,
@@ -4037,6 +4037,15 @@
       "penalties": 2
     },
     {
+      "name": "Jude Bellingham",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "team": "England",
+      "teamShort": "England",
+      "goals": 5,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Ousmane Dembélé",
       "flag": "🇫🇷",
       "team": "France",
@@ -4059,15 +4068,6 @@
       "flag": "🇧🇷",
       "team": "Brazil",
       "teamShort": "Brazil",
-      "goals": 4,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "name": "Jude Bellingham",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "team": "England",
-      "teamShort": "England",
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-11T20:42:17.637064+00:00",
+  "lastUpdate": "2026-07-11T22:42:40.118921+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
