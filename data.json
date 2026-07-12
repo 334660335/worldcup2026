@@ -3053,21 +3053,21 @@
       "awayId": 770,
       "awayShort": "England",
       "awayTla": "ENG",
-      "homeScore": 2,
-      "awayScore": 1,
+      "homeScore": 1,
+      "awayScore": 2,
       "halfTimeHome": 1,
       "halfTimeAway": 1,
-      "extraTimeHome": null,
-      "extraTimeAway": null,
+      "extraTimeHome": 0,
+      "extraTimeAway": 1,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "qf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "HOME_TEAM"
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537386,
@@ -3084,21 +3084,21 @@
       "awayId": 788,
       "awayShort": "Switzerland",
       "awayTla": "SUI",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "halfTimeHome": 1,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "qf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "HOME_TEAM"
     },
     {
       "id": 537387,
@@ -4015,7 +4015,7 @@
       "team": "Argentina",
       "teamShort": "Argentina",
       "goals": 8,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -4041,7 +4041,7 @@
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "team": "England",
       "teamShort": "England",
-      "goals": 5,
+      "goals": 6,
       "assists": 1,
       "penalties": null
     },
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-11T22:42:40.118921+00:00",
+  "lastUpdate": "2026-07-12T02:22:34.551604+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
