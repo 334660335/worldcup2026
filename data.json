@@ -3116,9 +3116,9 @@
       "awayShort": "Spain",
       "awayTla": "ESP",
       "homeScore": 0,
-      "awayScore": 0,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "awayScore": 2,
+      "halfTimeHome": 0,
+      "halfTimeAway": 1,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
@@ -3129,7 +3129,7 @@
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537388,
@@ -4046,6 +4046,15 @@
       "penalties": null
     },
     {
+      "name": "Mikel Oyarzabal",
+      "flag": "🇪🇸",
+      "team": "Spain",
+      "teamShort": "Spain",
+      "goals": 5,
+      "assists": 1,
+      "penalties": 1
+    },
+    {
       "name": "Ousmane Dembélé",
       "flag": "🇫🇷",
       "team": "France",
@@ -4068,15 +4077,6 @@
       "flag": "🇧🇷",
       "team": "Brazil",
       "teamShort": "Brazil",
-      "goals": 4,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "flag": "🇪🇸",
-      "team": "Spain",
-      "teamShort": "Spain",
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-14T19:13:07.917496+00:00",
+  "lastUpdate": "2026-07-14T20:56:26.721024+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
