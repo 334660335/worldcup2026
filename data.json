@@ -3115,21 +3115,21 @@
       "awayId": 760,
       "awayShort": "Spain",
       "awayTla": "ESP",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "halfTimeHome": null,
       "halfTimeAway": null,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "sf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     },
     {
       "id": 537388,
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-14T17:10:23.823997+00:00",
+  "lastUpdate": "2026-07-14T19:13:07.917496+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
