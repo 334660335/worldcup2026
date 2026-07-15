@@ -3147,20 +3147,20 @@
       "awayShort": "Argentina",
       "awayTla": "ARG",
       "homeScore": 1,
-      "awayScore": 1,
+      "awayScore": 2,
       "halfTimeHome": 0,
       "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "sf",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": "DRAW"
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537389,
@@ -4015,7 +4015,7 @@
       "team": "Argentina",
       "teamShort": "Argentina",
       "goals": 8,
-      "assists": 3,
+      "assists": 4,
       "penalties": null
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-15T20:56:18.102929+00:00",
+  "lastUpdate": "2026-07-15T22:55:45.608043+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
