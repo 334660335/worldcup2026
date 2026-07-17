@@ -4006,7 +4006,7 @@
       "team": "France",
       "teamShort": "France",
       "goals": 8,
-      "assists": 2,
+      "assists": 3,
       "penalties": 1
     },
     {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-17T06:11:48.368084+00:00",
+  "lastUpdate": "2026-07-17T09:52:58.156449+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
