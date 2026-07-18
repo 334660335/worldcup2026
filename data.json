@@ -3177,21 +3177,21 @@
       "awayId": 770,
       "awayShort": "England",
       "awayTla": "ENG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 3,
+      "awayScore": 4,
+      "halfTimeHome": 0,
+      "halfTimeAway": 4,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "third",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "AWAY_TEAM"
     },
     {
       "id": 537390,
@@ -4005,8 +4005,8 @@
       "flag": "🇫🇷",
       "team": "France",
       "teamShort": "France",
-      "goals": 8,
-      "assists": 3,
+      "goals": 10,
+      "assists": 4,
       "penalties": 1
     },
     {
@@ -4145,6 +4145,15 @@
       "penalties": null
     },
     {
+      "name": "Bradley Barcola",
+      "flag": "🇫🇷",
+      "team": "France",
+      "teamShort": "France",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Yoane Wissa",
       "flag": "🏳️",
       "team": "Congo DR",
@@ -4170,18 +4179,9 @@
       "goals": 3,
       "assists": null,
       "penalties": null
-    },
-    {
-      "name": "Matheus Cunha",
-      "flag": "🇧🇷",
-      "team": "Brazil",
-      "teamShort": "Brazil",
-      "goals": 3,
-      "assists": null,
-      "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-18T20:41:26.451316+00:00",
+  "lastUpdate": "2026-07-18T22:43:49.063124+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
