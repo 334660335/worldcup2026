@@ -3177,15 +3177,15 @@
       "awayId": 770,
       "awayShort": "England",
       "awayTla": "ENG",
-      "homeScore": 3,
-      "awayScore": 4,
+      "homeScore": 4,
+      "awayScore": 6,
       "halfTimeHome": 0,
       "halfTimeAway": 4,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "live",
+      "status": "finished",
       "stage": "third",
       "group": "",
       "matchday": null,
@@ -4028,6 +4028,15 @@
       "penalties": null
     },
     {
+      "name": "Jude Bellingham",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "team": "England",
+      "teamShort": "England",
+      "goals": 7,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "name": "Harry Kane",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "team": "England",
@@ -4037,12 +4046,12 @@
       "penalties": 2
     },
     {
-      "name": "Jude Bellingham",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "team": "England",
-      "teamShort": "England",
+      "name": "Ousmane Dembélé",
+      "flag": "🇫🇷",
+      "team": "France",
+      "teamShort": "France",
       "goals": 6,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -4053,15 +4062,6 @@
       "goals": 5,
       "assists": 1,
       "penalties": 1
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "flag": "🇫🇷",
-      "team": "France",
-      "teamShort": "France",
-      "goals": 5,
-      "assists": 2,
-      "penalties": null
     },
     {
       "name": "Julián Quiñones",
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-18T22:43:49.063124+00:00",
+  "lastUpdate": "2026-07-19T02:14:49.235019+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
