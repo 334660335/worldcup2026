@@ -3208,21 +3208,21 @@
       "awayId": 762,
       "awayShort": "Argentina",
       "awayTla": "ARG",
-      "homeScore": null,
-      "awayScore": null,
-      "halfTimeHome": null,
-      "halfTimeAway": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "halfTimeHome": 0,
+      "halfTimeAway": 0,
       "extraTimeHome": null,
       "extraTimeAway": null,
       "penaltiesHome": null,
       "penaltiesAway": null,
-      "status": "upcoming",
+      "status": "live",
       "stage": "final",
       "group": "",
       "matchday": null,
       "venue": "",
       "city": "",
-      "winner": null
+      "winner": "DRAW"
     }
   ],
   "groups": {
@@ -4181,7 +4181,7 @@
       "penalties": null
     }
   ],
-  "lastUpdate": "2026-07-19T19:00:11.377929+00:00",
+  "lastUpdate": "2026-07-19T20:41:11.525054+00:00",
   "source": "football-data.org",
   "status": "live",
   "competition": "WC",
